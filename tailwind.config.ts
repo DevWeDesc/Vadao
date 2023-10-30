@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontWeight: {
+        extraBlack: "1000",
+      },
       fontSize: {
         textTitleMobile: "3rem",
       },
