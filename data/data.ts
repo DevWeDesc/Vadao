@@ -2,6 +2,14 @@ import { ICardMenu } from "../types/types";
 import ImagePrimaryFood from "../public/ImagePrimaryFood.png";
 import ImageSecondaryFood from "../public/ImageSecondaryFood.png";
 
+export const DataNav = [
+  { value: "Destaque", href: "#" },
+  { value: "Sobre Nós", href: "#" },
+  { value: "Cardápio", href: "#" },
+  { value: "Feedbacks", href: "#" },
+  { value: "Contato", href: "#" },
+];
+
 export const MenuData: ICardMenu[] = [
   {
     image: ImagePrimaryFood,
