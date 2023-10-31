@@ -19,13 +19,13 @@ export const MenuData: ICardMenu[] = [
       "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
     price: "R$ 65,90",
   },
-  {
-    image: ImageSecondaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
+  // {
+  //   image: ImageSecondaryFood,
+  //   title: "Frutos do Mar à Marinheira",
+  //   content:
+  //     "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
+  //   price: "R$ 65,90",
+  // },
   {
     image: ImagePrimaryFood,
     title: "Frutos do Mar à Marinheira",

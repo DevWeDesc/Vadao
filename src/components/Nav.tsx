@@ -4,7 +4,7 @@ import { DataNav } from "../../data/data";
 import { INav } from "../../types/types";
 import { useState } from "react";
 
-export const Nav = ({ navOpen }: INav) => {
+export const Nav = ({ navOpen, handleNavOpen }: INav) => {
   const [sectionSelected, setSectionSelected] = useState("Inicio");
   return (
     <div
@@ -17,7 +17,10 @@ export const Nav = ({ navOpen }: INav) => {
       {DataNav.map((data, index) => (
         <a
           href={data.href}
-          onClick={() => setSectionSelected(data.value)}
+          onClick={() => {
+            setSectionSelected(data.value);
+            handleNavOpen();
+          }}
           key={index}
           className={`${
             data.value === sectionSelected

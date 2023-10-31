@@ -11,6 +11,10 @@ export const Header = () => {
     navOpen ? setNavOpen(false) : setNavOpen(true);
   };
 
+  const closeNav = () => {
+    setNavOpen(false);
+  };
+
   return (
     <div className="fixed w-screen z-10 bg-redDefault flex items-center justify-between px-5 py-1">
       <Image alt="" src={LogoHeader} />
@@ -31,7 +35,7 @@ export const Header = () => {
           }`}
         />
       </div>
-      <Nav navOpen={navOpen} />
+      <Nav navOpen={navOpen} handleNavOpen={closeNav} />
     </div>
   );
 };
