@@ -4,7 +4,18 @@ import { Roboto_Flex } from "next/font/google";
 import "./globals.css";
 
 const roboto = Roboto_Flex({
-  weight: "1000",
+  weight: [
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900",
+    "1000",
+  ],
   subsets: ["latin"],
   variable: "--font-roboto",
 });
