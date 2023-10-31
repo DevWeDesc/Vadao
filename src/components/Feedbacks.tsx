@@ -5,7 +5,7 @@ import PrimaryFeedback from "../../public/PrimaryComentsImage.png";
 
 export const Feedbacks = () => {
   return (
-    <div className="text-center px-5 flex flex-col items-center">
+    <div className="pb-24 text-center px-5 flex flex-col items-center">
       <div className="flex flex-col gap-5 items-center">
         <div className="flex flex-col gap-2">
           <p className="font-black text-base">Feedback dos Nossos Clientes</p>
