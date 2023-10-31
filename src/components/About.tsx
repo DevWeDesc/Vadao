@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import SwiperAbout from "./SwiperAbout/Swiper";
 
@@ -23,7 +22,6 @@ export const About = () => {
         </button>
       </div>
       <SwiperAbout />
-      {/* <Image className="mt-12" alt="" src={ImageSwiper} /> */}
     </div>
   );
 };
