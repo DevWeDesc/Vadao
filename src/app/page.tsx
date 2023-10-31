@@ -1,5 +1,6 @@
 import { About } from "@/components/About";
 import { Banner } from "@/components/Banner";
+import { FeaturedDishes } from "@/components/FeaturedDishes";
 import { Header } from "@/components/Header";
 import Image from "next/image";
 
@@ -13,6 +14,9 @@ export default function Home() {
         </section>
         <section>
           <About />
+        </section>
+        <section>
+          <FeaturedDishes />
         </section>
       </main>
     </>

@@ -4,7 +4,7 @@ import ImageSwiper from "../../public/ImageSwiper.png";
 
 export const About = () => {
   return (
-    <div className="py-24">
+    <div className="pt-24">
       <div className="flex flex-col gap-5  px-5">
         <h2 className="text-[46px] leading-tight font-extraBlack">
           <span className=" border-b-4 border-redDefault opacity-100">
