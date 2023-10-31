@@ -17,9 +17,11 @@ export const About = () => {
           gastronômicas memoráveis. Descubra o que nos inspira a servir você da
           melhor forma possível.
         </p>
-        <button className="w-auto px-8 py-3 bg-redDefault rounded-full text-white">
-          Ver Cardápio{" "}
-        </button>
+        <a href="#Menu">
+          <button className="w-auto px-8 py-3 bg-redDefault rounded-full text-white">
+            Ver Cardápio{" "}
+          </button>
+        </a>
       </div>
       <SwiperAbout />
     </div>

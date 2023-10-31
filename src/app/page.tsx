@@ -9,8 +9,13 @@ import { Menu } from "@/components/Menu";
 export default function Home() {
   return (
     <>
+      <div className="hidden lg:flex w-screen h-screen items-center justify-center">
+        <p className="font-extraBlack text-7xl max-w-xxl text-center">
+          Não disponível para desktop até o Momento...
+        </p>
+      </div>
       <Header />
-      <main>
+      <main className="lg:hidden">
         <section id="Init">
           <Banner />
         </section>
