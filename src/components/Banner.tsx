@@ -9,7 +9,7 @@ export const Banner = () => {
       <h2 className="text-[64px] text-white leading-tight opacity-40 font-extraBlack">
         Sabor Inigualável
       </h2>
-      <h3 className="text-2xl text-white font-extrabold">
+      <h3 className="text-[1.68rem] text-white font-extrabold">
         Uma Experiência Culinária que Encanta os Sentidos
       </h3>
     </div>

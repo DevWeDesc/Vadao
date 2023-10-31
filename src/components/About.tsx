@@ -4,8 +4,8 @@ export const About = () => {
   return (
     <div className="py-24 px-5">
       <div className="flex flex-col gap-5">
-        <h2 className="text-[46px] font-extraBlack">
-          <span className="pb-[2px] border-b-4 border-redDefault opacity-100">
+        <h2 className="text-[46px] leading-tight font-extraBlack">
+          <span className=" border-b-4 border-redDefault opacity-100">
             Nossa
           </span>{" "}
           História e Missão
