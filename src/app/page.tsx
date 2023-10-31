@@ -11,22 +11,24 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <section>
+        <section id="Init">
           <Banner />
         </section>
-        <section>
+        <section id="About">
           <About />
         </section>
-        <section>
+        <section id="Feature">
           <FeaturedDishes />
         </section>
-        <section>
+        <section id="Menu">
           <Menu />
         </section>
-        <section>
+        <section id="Feedback">
           <Feedbacks />
         </section>
-        <Footer />
+        <section id="Contact">
+          <Footer />
+        </section>
       </main>
     </>
   );

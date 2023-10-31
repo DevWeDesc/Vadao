@@ -5,14 +5,14 @@ import LogoHeader from "../../public/logoMobile.png";
 import { Nav } from "./Nav";
 
 export const Header = () => {
-  const [navOpen, setNavOpen] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
 
   const hamdleNavOpen = () => {
     navOpen ? setNavOpen(false) : setNavOpen(true);
   };
 
   return (
-    <div className="bg-redDefault flex items-center justify-between px-5 py-1">
+    <div className="fixed w-screen z-10 bg-redDefault flex items-center justify-between px-5 py-1">
       <Image alt="" src={LogoHeader} />
 
       <div

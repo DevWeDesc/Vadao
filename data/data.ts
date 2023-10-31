@@ -3,11 +3,12 @@ import ImagePrimaryFood from "../public/ImagePrimaryFood.png";
 import ImageSecondaryFood from "../public/ImageSecondaryFood.png";
 
 export const DataNav = [
-  { value: "Destaque", href: "#" },
-  { value: "Sobre Nós", href: "#" },
-  { value: "Cardápio", href: "#" },
-  { value: "Feedbacks", href: "#" },
-  { value: "Contato", href: "#" },
+  { value: "Inicio", href: "#Init" },
+  { value: "Destaque", href: "#About" },
+  { value: "Sobre Nós", href: "#Feature" },
+  { value: "Cardápio", href: "#Menu" },
+  { value: "Feedbacks", href: "#Feedback" },
+  { value: "Contato", href: "#Contact" },
 ];
 
 export const MenuData: ICardMenu[] = [
