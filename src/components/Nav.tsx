@@ -11,7 +11,7 @@ export const Nav = ({ navOpen, handleNavOpen }: INav) => {
       className={`fixed top-0 text-white z-10 bg-red-800 h-screen lg:relative lg:h-full px-14 py-24 lg:p-0 lg:bg-redDefault gap-5 flex flex-col right-0 ${
         navOpen
           ? "z-10 opacity-100 transition-all"
-          : "-z-[2] opacity-0 right-0 transition-all hidden lg:flex lg:flex-row lg:opacity-100 lg:z-10"
+          : "-z-[2] opacity-0 right-0 transition-all hidden lg:flex lg:flex-row lg:opacity-100 lg:z-10 lg:font-bold"
       }`}
     >
       {DataNav.map((data, index) => (
