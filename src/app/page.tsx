@@ -20,9 +20,10 @@ export default function Home() {
           <Banner />
         </section>
         <div />
-        <section id="About">
+        <section id="About" className="lg:col-span-2">
           <About />
         </section>
+        <div />
         <section id="Feature">
           <FeaturedDishes />
         </section>

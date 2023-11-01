@@ -7,7 +7,7 @@ export const Banner = () => {
     <div className="bg-redDefault flex flex-col gap-12 py-24 px-5 lg:w-full lg:flex-row-reverse">
       <Image
         alt=""
-        className="lg:absolute lg:right-52 lg:w-96 lg:h-96"
+        className="lg:absolute lg:right-[18%] lg:w-96 lg:h-96"
         src={ImageBanner}
       />
       <div>
