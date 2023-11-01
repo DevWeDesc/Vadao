@@ -16,11 +16,11 @@ export const Header = () => {
   };
 
   return (
-    <div className="fixed w-screen z-10 bg-redDefault flex items-center justify-between px-5 py-1 lg:hidden">
+    <div className="fixed w-screen z-10 bg-redDefault flex items-center justify-between px-5 py-1 lg:w-full lg:px-20 lg:relative">
       <Image alt="" src={LogoHeader} />
 
       <div
-        className="z-20 flex flex-col gap-[6px] h-6 w-6"
+        className="z-20 flex flex-col gap-[6px] h-6 w-6 lg:hidden"
         onClick={hamdleNavOpen}
       >
         <div
