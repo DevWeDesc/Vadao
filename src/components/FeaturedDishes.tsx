@@ -20,7 +20,7 @@ export const FeaturedDishes = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center pb-24 justify-center mt-9 px-24">
+      <div className="flex items-center pb-24 justify-center mt-9 lg:px-24">
         <SwiperFeatured />
       </div>
     </div>

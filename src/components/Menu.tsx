@@ -19,7 +19,7 @@ export const Menu = () => {
   };
 
   return (
-    <div className="py-24 px-5 flex flex-col items-center">
+    <div className="py-24 px-5 flex flex-col items-center lg:px-16">
       <div className="text-center flex flex-col gap-5">
         <div className="flex flex-col gap-2">
           <p className="text-base font-black">Nosso Menu</p>
