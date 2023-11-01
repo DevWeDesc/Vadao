@@ -29,7 +29,7 @@ export const Menu = () => {
           Uma Viagem de Sabores para Satisfazer Todos os Paladares
         </p>
       </div>
-      <div className="mt-16 grid grid-cols-2 gap-4 mb-8">
+      <div className="mt-16 grid grid-cols-2 gap-4 mb-8 lg:grid-cols-4 lg:gap-5">
         {MenuVisible.map((data, index) => (
           <CardMenu
             isVertical={true}

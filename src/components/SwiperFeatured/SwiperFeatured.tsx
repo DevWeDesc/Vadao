@@ -5,18 +5,31 @@ import "./styles.css";
 import { Navigation } from "swiper/modules";
 import { CardMenu } from "../CardMenu";
 import { MenuData } from "../../../data/data";
+import { useState, useEffect } from "react";
 
 export default function SwiperFeatured() {
+  const [slidesPerView, setSlidesPerView] = useState(1);
+
+  useEffect(() => {
+    if (window) {
+      if (window.innerWidth <= 640) {
+        setSlidesPerView(1);
+      } else setSlidesPerView(3);
+    }
+  }, []);
+
   return (
     <>
       <Swiper
         navigation={true}
         modules={[Navigation]}
         className="mySwiperFeatured"
+        slidesPerView={slidesPerView}
+        spaceBetween={slidesPerView > 1 ? 87 : 0}
       >
         {MenuData.map((data, index) => (
           <SwiperSlide key={index} className="bg-redDefault">
-            <div className="mx-14 my-7">
+            <div className={`${slidesPerView === 1 ? "mx-14" : "mx-0"} my-7`}>
               <CardMenu
                 isVertical={true}
                 content={data.content}
