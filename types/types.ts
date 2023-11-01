@@ -11,6 +11,7 @@ export type ICardMenu = {
   content: string;
   price: string;
   isVertical?: boolean;
+  colorShadow?: string;
 };
 
 export type IFeedbackData = {
