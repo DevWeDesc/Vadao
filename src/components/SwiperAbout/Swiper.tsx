@@ -20,7 +20,7 @@ export default function SwiperAbout() {
       <Swiper
         navigation={true}
         modules={[Navigation]}
-        className="mySwiper mt-12"
+        className="mySwiper mt-12 lg:mt-0"
       >
         <SwiperSlide>
           <Image alt="" src={ImageSwiper}></Image>

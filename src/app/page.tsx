@@ -20,20 +20,19 @@ export default function Home() {
           <Banner />
         </section>
         <div />
-        <section id="About" className="lg:col-span-2">
+        <section id="About" className="lg:col-span-3">
           <About />
         </section>
-        <div />
-        <section id="Feature">
+        <section id="Feature" className="lg:col-span-3">
           <FeaturedDishes />
         </section>
-        <section id="Menu">
+        <section id="Menu" className="lg:col-span-3">
           <Menu />
         </section>
-        <section id="Feedback">
+        <section id="Feedback" className="lg:col-span-3">
           <Feedbacks />
         </section>
-        <section id="Contact">
+        <section id="Contact" className="lg:col-span-3">
           <Footer />
         </section>
       </main>
