@@ -7,7 +7,7 @@ import { FeedbackData } from "../../data/data";
 
 export const Feedbacks = () => {
   return (
-    <div className="pb-24 text-center px-5 flex flex-col items-center">
+    <div className="pb-24 text-center px-5 flex flex-col items-center lg:px-80">
       <div className="flex flex-col gap-5 items-center">
         <div className="flex flex-col gap-2">
           <p className="font-black text-base">Feedback dos Nossos Clientes</p>
