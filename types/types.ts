@@ -12,3 +12,9 @@ export type ICardMenu = {
   price: string;
   isVertical?: boolean;
 };
+
+export type IFeedbackData = {
+  image: string | StaticImageData;
+  name: string;
+  content: string;
+};
