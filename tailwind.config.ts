@@ -19,6 +19,7 @@ const config: Config = {
         redDefault: "#A51D21",
         zincCard: "#27272A",
         shadowCard: "#E6D6C8",
+        shadowRed: "#8A191C",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

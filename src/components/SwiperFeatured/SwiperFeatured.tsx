@@ -25,13 +25,16 @@ export default function SwiperFeatured() {
         className="mySwiperFeatured"
       >
         {MenuData.map((data, index) => (
-          <SwiperSlide key={index}>
-            <CardMenu
-              content={data.content}
-              image={data.image}
-              price={data.price}
-              title={data.title}
-            />
+          <SwiperSlide key={index} className="bg-redDefault">
+            <div className="mx-14 my-7">
+              <CardMenu
+                isVertical={true}
+                content={data.content}
+                image={data.image}
+                price={data.price}
+                title={data.title}
+              />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

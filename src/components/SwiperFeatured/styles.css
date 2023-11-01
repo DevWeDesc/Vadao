@@ -23,7 +23,7 @@ body {
 
 .mySwiperFeatured .swiper-slide {
   font-size: 18px;
-  /* Center slide text vertically */
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,8 +58,8 @@ body {
   font-weight: bold;
   color: #fff;
   padding: 20px;
-  /* background-color: rgba(255, 255, 255, 0.3); */
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
   border-radius: 50%;
 }
 .swiper-button-prev.swiper-button-disabled,

@@ -10,4 +10,5 @@ export type ICardMenu = {
   title: string;
   content: string;
   price: string;
+  isVertical?: boolean;
 };
