@@ -1,6 +1,7 @@
 import { ICardMenu, IFeedbackData } from "../types/types";
 import ImagePrimaryFood from "../public/ImagePrimaryFood.png";
 import ImageSecondaryFood from "../public/ImageSecondaryFood.png";
+import PrimaryFeedback from "../public/PrimaryComentsImage.png";
 
 export const DataNav = [
   { value: "Inicio", href: "#Init" },
@@ -99,5 +100,22 @@ export const MenuData: ICardMenu[] = [
 ];
 
 export const FeedbackData: IFeedbackData[] = [
-  { content: "", image: "", name: "" },
+  {
+    content:
+      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
+    image: PrimaryFeedback,
+    name: "Cintialelis rubio",
+  },
+  {
+    content:
+      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
+    image: PrimaryFeedback,
+    name: "Cintialelis rubio",
+  },
+  {
+    content:
+      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
+    image: PrimaryFeedback,
+    name: "Cintialelis rubio",
+  },
 ];
