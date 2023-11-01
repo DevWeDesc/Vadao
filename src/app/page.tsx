@@ -13,28 +13,29 @@ export default function Home() {
         <div className="lg:col-span-2">
           <Header />
         </div>
-        <div></div>
-        <main>
-          <section id="Init">
-            <Banner />
-          </section>
-          <section id="About">
-            <About />
-          </section>
-          <section id="Feature">
-            <FeaturedDishes />
-          </section>
-          <section id="Menu">
-            <Menu />
-          </section>
-          <section id="Feedback">
-            <Feedbacks />
-          </section>
-          <section id="Contact">
-            <Footer />
-          </section>
-        </main>
+        <div />
       </div>
+      <main className="lg:grid lg:grid-cols-3">
+        <section id="Init" className="lg:col-span-2">
+          <Banner />
+        </section>
+        <div />
+        <section id="About">
+          <About />
+        </section>
+        <section id="Feature">
+          <FeaturedDishes />
+        </section>
+        <section id="Menu">
+          <Menu />
+        </section>
+        <section id="Feedback">
+          <Feedbacks />
+        </section>
+        <section id="Contact">
+          <Footer />
+        </section>
+      </main>
     </>
   );
 }

@@ -16,7 +16,7 @@ export const Header = () => {
   };
 
   return (
-    <div className="fixed w-screen z-10 bg-redDefault flex items-center justify-between px-5 py-1 lg:w-full lg:px-20 lg:relative">
+    <div className="fixed w-screen z-10 bg-redDefault flex items-center justify-between px-5 py-1 lg:w-full lg:px-28 lg:relative">
       <Image alt="" src={LogoHeader} />
 
       <div
