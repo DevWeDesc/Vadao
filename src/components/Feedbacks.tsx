@@ -13,7 +13,7 @@ export const Feedbacks = () => {
           <p className="font-black text-base 2xl:text-xl">
             Feedback dos Nossos Clientes
           </p>
-          <h2 className="font-extraBlack text-5xl 2xl:text-8xl px-20">
+          <h2 className="font-extraBlack text-5xl 2xl:text-8xl 2xl:px-60 px-20">
             Ouvindo Você, Aprimorando Sempre
           </h2>
         </div>
