@@ -1,5 +1,5 @@
 "use client";
-import React, { ReactNode } from "react";
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,9 +13,25 @@ type ISwiperFeedback = {
 };
 
 export default function SwiperFeedback({ dataFeedbackProp }: ISwiperFeedback) {
+  const [slidesPerView, setSlidesPerView] = useState(1);
+
+  useEffect(() => {
+    if (window) {
+      if (window.innerWidth >= 1620) {
+        setSlidesPerView(2);
+      }
+    }
+  }, []);
+
   return (
     <>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper
+        navigation={true}
+        modules={[Navigation]}
+        slidesPerView={slidesPerView}
+        spaceBetween={slidesPerView === 1 ? 0 : 150}
+        className="mySwiper"
+      >
         {dataFeedbackProp.map((data, index) => (
           <SwiperSlide key={index}>
             <div className="flex flex-col gap-5 items-center text-center mt-5">

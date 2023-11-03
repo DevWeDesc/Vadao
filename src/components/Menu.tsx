@@ -22,10 +22,12 @@ export const Menu = () => {
     <div className="py-24 px-5 flex flex-col items-center lg:px-16 2xl:px-32">
       <div className="text-center flex flex-col gap-5">
         <div className="flex flex-col gap-2">
-          <p className="text-base font-black">Nosso Menu</p>
-          <h2 className="text-4xl font-extraBlack">Nosso Delicioso Cardápio</h2>
+          <p className="text-base font-black 2xl:text-xl">Nosso Menu</p>
+          <h2 className="text-4xl font-extraBlack 2xl:text-8xl">
+            Nosso Delicioso Cardápio
+          </h2>
         </div>
-        <p className="font-bold text-lg">
+        <p className="font-bold text-lg 2xl:text-2xl">
           Uma Viagem de Sabores para Satisfazer Todos os Paladares
         </p>
       </div>
