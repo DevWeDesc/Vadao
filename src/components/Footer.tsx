@@ -11,14 +11,20 @@ export const Footer = () => {
       <div className="flex flex-col items-center gap-2">
         <p className="font-black">Redes Sociais</p>
         <div className="flex gap-3 items-center">
-          <FiInstagram className="w-8 h-8" />
-          <FiFacebook className="w-8 h-8" />
+          <a href="https://www.instagram.com/restaurantedovadao?igshid=MzRlODBiNWFlZA%3D%3D">
+            <FiInstagram className="w-8 h-8" />
+          </a>
+          <a href="https://www.facebook.com/vadaorestaurante/?locale=pt_BR">
+            <FiFacebook className="w-8 h-8" />
+          </a>
         </div>
       </div>
       <div className="flex flex-col items-center gap-2">
         <p className="font-black">Faça seu pedido em Casa!</p>
         <div className="flex gap-3 items-center">
-          <Image alt="" src={IconIfood} />
+          <a href="https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158">
+            <Image alt="" src={IconIfood} />
+          </a>
         </div>
       </div>
       <div className="flex flex-col items-center gap-5">
