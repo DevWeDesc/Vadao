@@ -4,7 +4,7 @@ import ImageBanner from "../../public/ImageBannerMobile.png";
 
 export const Banner = () => {
   return (
-    <div className="bg-redDefault flex flex-col gap-12 py-24 px-5 lg:w-full lg:flex-row-reverse">
+    <div className="bg-redDefault flex flex-col gap-12 py-24 px-5W lg:w-full lg:flex-row-reverse">
       <Image
         alt=""
         className="lg:absolute lg:right-[18%] lg:w-96 lg:h-96"

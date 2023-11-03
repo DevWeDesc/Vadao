@@ -23,13 +23,13 @@ export default function SwiperAbout() {
         className="mySwiper mt-12 lg:mt-0"
       >
         <SwiperSlide>
-          <Image alt="" src={ImageSwiper}></Image>
+          <Image alt="" src={ImageSwiper} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image alt="" src={ImageSwiper}></Image>
+          <Image alt="" src={ImageSwiper} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image alt="" src={ImageSwiper}></Image>
+          <Image alt="" src={ImageSwiper} />
         </SwiperSlide>
       </Swiper>
     </>

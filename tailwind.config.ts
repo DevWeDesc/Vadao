@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        "2xl": "1612px",
+        "3xl": "",
+      },
       fontWeight: {
         extraBlack: "1000",
       },
