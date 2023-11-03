@@ -14,7 +14,11 @@ export default function SwiperFeatured() {
     if (window) {
       if (window.innerWidth <= 640) {
         setSlidesPerView(1);
-      } else setSlidesPerView(3);
+      } else if (window.innerWidth <= 1280) {
+        setSlidesPerView(3);
+      } else {
+        setSlidesPerView(4);
+      }
     }
   }, []);
 
