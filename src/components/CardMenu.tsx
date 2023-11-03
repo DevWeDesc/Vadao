@@ -31,7 +31,7 @@ export const CardMenu = ({
       <div
         className={`flex items-center justify-center ${
           colorShadow === "#E6D6C8"
-            ? ""
+            ? "w-full px-3 lg:px-8"
             : `bg-black/5 opacity-${opacityImage} transition-all bg-fixed`
         } ${isVertical && "px-0"}`}
       >
@@ -39,10 +39,10 @@ export const CardMenu = ({
       </div>
       <div
         className={`${
-          colorShadow === "#E6D6C8" ? "text-zincCard" : "text-white px-3 min-h "
+          colorShadow === "#E6D6C8" ? "text-zincCard" : "text-white px-3"
         } ${
           isVertical
-            ? "flex flex-col text-white text-left justify-between gap-2 lg:min-h-[160px]"
+            ? "flex flex-col text-white text-left justify-between gap-2 min-h-[160px]"
             : "text-zincCard"
         }`}
       >
