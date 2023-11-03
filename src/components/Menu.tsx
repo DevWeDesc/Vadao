@@ -15,9 +15,11 @@ export const Menu = () => {
   }, [quantityData]);
 
   const handleQuantityData = () => {
-    window?.innerWidth <= 1280
-      ? setQuantityData(quantityData + 2)
-      : setQuantityData(quantityData + 4);
+    if (window) {
+      window?.innerWidth <= 1280
+        ? setQuantityData(quantityData + 2)
+        : setQuantityData(quantityData + 4);
+    }
     // if (window) {
     //   if (window.innerWidth <= 1280) {
     //     setQuantityData(quantityData + 2);
