@@ -14,7 +14,7 @@ export const Banner = () => {
         <h2 className="text-[64px] text-white leading-tight opacity-40 font-extraBlack lg:text-9xl 2xl:text-[12rem] 2xl:pl-16">
           Sabor Inigualável
         </h2>
-        <div className="lg:px-24 2xl:px-96">
+        <div className="lg:px-24 2xl:px-60">
           <h3 className="text-[1.68rem] text-white font-extrabold lg:mt-16 lg:text-5xl 2xl:text-6xl">
             Uma Experiência Culinária que Encanta os Sentidos
           </h3>
