@@ -34,11 +34,13 @@ export default function SwiperFeedback({ dataFeedbackProp }: ISwiperFeedback) {
       >
         {dataFeedbackProp.map((data, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col gap-5 items-center text-center mt-5">
-              <p className="text-sm">{data.content}</p>
+            <div className="flex flex-col gap-5 items-center text-center mt-5 2xl:mt-10">
+              <p className="text-sm 2xl:text-lg 2xl:font-medium 2xl:opacity-80">
+                {data.content}
+              </p>
               {/* <SwiperFeedback /> */}
-              <div className="flex flex-col items-center gap-3">
-                <div>
+              <div className="flex flex-col items-center gap-3 2xl:gap-6">
+                <div className="2xl:h-24">
                   <Image alt="" src={data.image} />
                 </div>
                 <p className="font-bold text-xl">{data.name}</p>
