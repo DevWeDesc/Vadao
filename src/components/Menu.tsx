@@ -6,7 +6,15 @@ import { ICardMenu } from "../../types/types";
 
 export const Menu = () => {
   const [MenuVisible, setMenuVisible] = useState<ICardMenu[]>([]);
-  let quantityInitialData = window?.innerWidth <= 1620 ? 8 : 10;
+  const [quantityInitialData, setQuantityInitialData] = useState(8);
+  useEffect(() => {
+    if (window) {
+      window?.innerWidth <= 1620
+        ? setQuantityInitialData(8)
+        : setQuantityInitialData(10);
+    }
+  }, []);
+
   const [quantityData, setQuantityData] = useState(quantityInitialData);
 
   useEffect(() => {
@@ -15,18 +23,18 @@ export const Menu = () => {
   }, [quantityData]);
 
   const handleQuantityData = () => {
-    // if (window) {
-    //   window?.innerWidth <= 1280
-    //     ? setQuantityData(quantityData + 2)
-    //     : setQuantityData(quantityData + 4);
-    // }
     if (window) {
-      if (window.innerWidth <= 1280) {
-        setQuantityData(quantityData + 2);
-      } else {
-        setQuantityData(quantityData + 4);
-      }
+      window?.innerWidth <= 1280
+        ? setQuantityData(quantityData + 2)
+        : setQuantityData(quantityData + 4);
     }
+    // if (window) {
+    //   if (window.innerWidth <= 1280) {
+    //     setQuantityData(quantityData + 2);
+    //   } else {
+    //     setQuantityData(quantityData + 4);
+    //   }
+    // }
   };
 
   return (
