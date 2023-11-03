@@ -30,7 +30,7 @@ export default function SwiperFeedback({ dataFeedbackProp }: ISwiperFeedback) {
         modules={[Navigation]}
         slidesPerView={slidesPerView}
         spaceBetween={slidesPerView === 1 ? 0 : 150}
-        className="mySwiper"
+        className="mySwiperFeed"
       >
         {dataFeedbackProp.map((data, index) => (
           <SwiperSlide key={index}>

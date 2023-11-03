@@ -2,6 +2,10 @@ import { ICardMenu, IFeedbackData } from "../types/types";
 import ImagePrimaryFood from "../public/ImagePrimaryFood.png";
 import ImageSecondaryFood from "../public/ImageSecondaryFood.png";
 import PrimaryFeedback from "../public/PrimaryComentsImage.png";
+import PrimaryHighlights from "../public/ImageFileGrelhado.png";
+import SecondaryHighlights from "../public/ImageContraFile.png";
+import TerceryHighlights from "../public/ImageFilas.png";
+import quartyHighlights from "../public/ImageAlmodegas.png";
 
 export const DataNav = [
   { value: "Inicio", href: "#Init" },
@@ -10,6 +14,35 @@ export const DataNav = [
   { value: "Cardápio", href: "#Menu" },
   { value: "Feedbacks", href: "#Feedback" },
   { value: "Contato", href: "#Contact" },
+];
+
+export const highlightsData: ICardMenu[] = [
+  {
+    image: PrimaryHighlights,
+    title: "Arrumadinho Contra Filé Grelhado",
+    content:
+      "2 unidades de contra filé, 1 porção arroz, 1 porção feijão, 1 porção p batata frita, 1 porção salada",
+    price: "R$ 85,00",
+  },
+  {
+    image: SecondaryHighlights,
+    title: "Contra File em Tiras Com Batata Frita",
+    content: "Arroz e feijão contra file e batata frita",
+    price: "R$ 34,90",
+  },
+  {
+    image: TerceryHighlights,
+    title: "Contra File em Tiras Executivo",
+    content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
+    price: "R$ 30,90",
+  },
+  {
+    image: quartyHighlights,
+    title: "Arrumadinho Contra Filé Grelhado",
+    content:
+      "2 unidades de contra filé, 1 porção arroz, 1 porção feijão, 1 porção p batata frita, 1 porção salada",
+    price: "R$ 85,00",
+  },
 ];
 
 export const MenuData: ICardMenu[] = [
