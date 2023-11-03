@@ -1,8 +1,8 @@
+"use client";
 import React from "react";
 import { ICardMenu } from "../../types/types";
 import Image from "next/image";
-
-import dksnvkdewsvn from "./ImageContraFile.png";
+import { useState } from "react";
 
 export const CardMenu = ({
   image,
@@ -12,8 +12,12 @@ export const CardMenu = ({
   isVertical,
   colorShadow,
 }: ICardMenu) => {
+  const [opacityImage, setOpacityImage] = useState(70);
+
   return (
     <div
+      onMouseOver={() => setOpacityImage(100)}
+      onMouseOut={() => setOpacityImage(70)}
       className={`grid gap-4 py-7 px-3 shadow-md rounded-lg ${
         colorShadow === "#E6D6C8"
           ? "shadow-shadowCard"
@@ -25,17 +29,10 @@ export const CardMenu = ({
       }`}
     >
       <div
-        // style={{
-        //   backgroundImage: `url('./ImageContraFile.png')`,
-        //   height: "200px",
-        //   width: "100%",
-        //   backgroundSize: "cover",
-        //   backgroundPosition: "center",
-        // }}
         className={`flex items-center justify-center ${
           colorShadow === "#E6D6C8"
             ? ""
-            : "bg-black/5 opacity-70 hover:opacity-100 transition-all bg-fixed"
+            : `bg-black/5 opacity-${opacityImage} transition-all bg-fixed`
         } ${isVertical && "px-0"}`}
       >
         <Image alt="" className="w-full rounded-lg" src={image} />

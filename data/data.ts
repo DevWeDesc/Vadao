@@ -38,10 +38,10 @@ export const highlightsData: ICardMenu[] = [
   },
   {
     image: quartyHighlights,
-    title: "Arrumadinho Contra Filé Grelhado",
+    title: "Almondegas ao Molho",
     content:
-      "2 unidades de contra filé, 1 porção arroz, 1 porção feijão, 1 porção p batata frita, 1 porção salada",
-    price: "R$ 85,00",
+      "6 Unidades de Almondegas deliciosas acompanhadas com queijo e Um molho maravilhoso!",
+    price: "R$ 26,90",
   },
 ];
 
