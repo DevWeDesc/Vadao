@@ -6,6 +6,13 @@ import PrimaryHighlights from "../public/ImageFileGrelhado.png";
 import SecondaryHighlights from "../public/ImageContraFile.png";
 import TerceryHighlights from "../public/ImageFilas.png";
 import quartyHighlights from "../public/ImageAlmodegas.png";
+import ImageBiff from "../public/ImageBifeCavalo.png";
+import ImageCalabresa from "../public/ImageCalabresa.png";
+import ImageParmegiana from "../public/ImageParmegiana.png";
+import ImageSpaghetti from "../public/ImageSpaghetti.png";
+import ImageBiffFried from "../public/ImageBiff.png";
+import ImageMerluza from "../public/ImageMerluza.png";
+import ImageChicken from "../public/ImageChicken.png";
 
 export const DataNav = [
   { value: "Inicio", href: "#Init" },
@@ -47,84 +54,86 @@ export const highlightsData: ICardMenu[] = [
 
 export const MenuData: ICardMenu[] = [
   {
-    image: ImagePrimaryFood,
+    image: PrimaryHighlights,
+    title: "Arrumadinho Contra Filé Grelhado",
+    content:
+      "2 unidades de contra filé, 1 porção arroz, 1 porção feijão, 1 porção p batata frita, 1 porção salada",
+    price: "R$ 85,00",
+  },
+
+  {
+    image: TerceryHighlights,
+    title: "Contra File em Tiras Executivo",
+    content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
+    price: "R$ 30,90",
+  },
+  {
+    image: quartyHighlights,
+    title: "Almondegas ao Molho",
+    content:
+      "6 Unidades de Almondegas deliciosas acompanhadas com queijo e Um molho maravilhoso!",
+    price: "R$ 26,90",
+  },
+  {
+    image: ImageParmegiana,
+    title: "Parmegiana de Frango Executivo",
+    content: "Arroz feijao guarnição e salada.",
+    price: "R$ 30,90",
+  },
+  {
+    image: SecondaryHighlights,
+    title: "Contra File em Tiras Com Batata Frita",
+    content: "Arroz e feijão contra file e batata frita",
+    price: "R$ 34,90",
+  },
+  {
+    image: ImageBiff,
+    title: "Bife à Cavalo Executivo",
+    content: "Arroz, feijão, ovo frito, bife frito e salada de folhas.",
+    price: "R$ 29,90",
+  },
+  {
+    image: ImageCalabresa,
+    title: "Calabresa Acebolada Executivo",
+    content: "Arroz, feijao, calabresa acebolada, guarnição e salada",
+    price: "R$ 29,90",
+  },
+
+  {
+    image: ImageSpaghetti,
+    title: "Spaghetti e Parmegiana de Carne + Bebida",
+    content: "Bandeja de 800 ml ( aproximadamente 500 a 650g)",
+    price: "R$ 32,90",
+  },
+  {
+    image: ImageBiffFried,
+    title: "Bife Frito",
+    content: "Bandeja de 800 ml.",
+    price: "R$ 27,90",
+  },
+  {
+    image: ImageMerluza,
+    title: "File de Merluza",
+    content:
+      "Delicie-se com o File de Merluza em nosso prato. Uma seleção exuberante.",
+    price: "R$ 26,90",
+  },
+  {
+    image: ImageChicken,
+    title: "File de Frango Grelhado",
+    content: "Arroz feijao e file de frango.",
+    price: "R$ 24,90",
+  },
+  {
+    image: ImageMerluza,
     title: "Frutos do Mar à Marinheira",
     content:
       "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
     price: "R$ 65,90",
   },
+
   {
-    image: ImageSecondaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
-  },
-  {
-    image: ImagePrimaryFood,
+    image: ImageMerluza,
     title: "Frutos do Mar à Marinheira",
     content:
       "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",

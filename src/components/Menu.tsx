@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { CardMenu } from "./CardMenu";
 import { MenuData } from "../../data/data";
 import { useState, useEffect } from "react";
@@ -7,7 +6,8 @@ import { ICardMenu } from "../../types/types";
 
 export const Menu = () => {
   const [MenuVisible, setMenuVisible] = useState<ICardMenu[]>([]);
-  const [quantityData, setQuantityData] = useState(8);
+  let quantityInitialData = window?.innerWidth <= 1620 ? 8 : 10;
+  const [quantityData, setQuantityData] = useState(quantityInitialData);
 
   useEffect(() => {
     let MenuSlicer: ICardMenu[] = MenuData.slice(0, quantityData);
@@ -15,7 +15,16 @@ export const Menu = () => {
   }, [quantityData]);
 
   const handleQuantityData = () => {
-    setQuantityData(quantityData + 2);
+    window?.innerWidth <= 1280
+      ? setQuantityData(quantityData + 2)
+      : setQuantityData(quantityData + 4);
+    // if (window) {
+    //   if (window.innerWidth <= 1280) {
+    //     setQuantityData(quantityData + 2);
+    //   } else {
+    //     setQuantityData(quantityData + 4);
+    //   }
+    // }
   };
 
   return (
