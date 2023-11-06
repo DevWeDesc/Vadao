@@ -39,7 +39,7 @@ export const CardMenu = ({
           alt=""
           className={`w-full object-contain rounded-t-lg ${
             colorShadow === "#E6D6C8" &&
-            "max-h-[104.58px] sm:max-h-[13.8rem] lg:max-h-[170px]"
+            "max-h-[104.58px] sm:max-h-[13.8rem] lg:max-h-[170px] 2xl:max-h-[160px]"
           }`}
           // max-h-[6.5rem]
           src={image}
