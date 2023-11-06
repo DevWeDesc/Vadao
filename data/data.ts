@@ -1,6 +1,4 @@
-import { ICardMenu, IFeedbackData } from "../types/types";
-import ImagePrimaryFood from "../public/ImagePrimaryFood.png";
-import ImageSecondaryFood from "../public/ImageSecondaryFood.png";
+import { ICardMenu, IDataRestaurant, IFeedbackData } from "../types/types";
 import PrimaryFeedback from "../public/PrimaryComentsImage.png";
 import PrimaryHighlights from "../public/ImageFileGrelhado.png";
 import SecondaryHighlights from "../public/ImageContraFile.png";
@@ -26,6 +24,15 @@ import ImageSuco from "../public/ImageSuco.png";
 import ImageSucoDetox from "../public/ImageSucoDetox.png";
 import ImageAgua from "../public/ImageAgua.png";
 import ImageH2O15 from "../public/ImageH2O1,5.png";
+import ImageRestaurant from "../public/ImageVadãoRestaurante.jpg";
+import ImageRestaurant2 from "../public/ImgPratoVadão.png";
+import ImageRestaurant3 from "../public/ImageVadão.png";
+
+export const DataRestaurant: IDataRestaurant[] = [
+  { photo: ImageRestaurant },
+  { photo: ImageRestaurant2 },
+  { photo: ImageRestaurant3 },
+];
 
 export const DataNav = [
   { value: "Inicio", href: "#Init" },

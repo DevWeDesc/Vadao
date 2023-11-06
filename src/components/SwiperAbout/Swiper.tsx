@@ -1,20 +1,10 @@
 "use client";
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import ImageSwiper from "../../../public/ImageVadãoRestaurante.jpg";
-import ImageSwiper2 from "../../../public/ImgPratoVadão.png";
-import ImageSwiper3 from "../../../public/ImageVadão.png";
-
-// Import Swiper styles
 import "swiper/css";
-// import "swiper/css/navigation";
-
 import "./styles.css";
-
-// import required modules
 import { Navigation } from "swiper/modules";
 import Image from "next/image";
+import { DataRestaurant } from "../../../data/data";
 
 export default function SwiperAbout() {
   return (
@@ -24,15 +14,11 @@ export default function SwiperAbout() {
         modules={[Navigation]}
         className="mySwiper mt-12 lg:mt-0"
       >
-        <SwiperSlide>
-          <Image alt="" src={ImageSwiper} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image alt="" src={ImageSwiper2} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image alt="" src={ImageSwiper3} />
-        </SwiperSlide>
+        {DataRestaurant.map((data, index) => (
+          <SwiperSlide key={index}>
+            <Image alt="" src={data.photo} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );
