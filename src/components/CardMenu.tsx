@@ -18,7 +18,7 @@ export const CardMenu = ({
     <div
       onMouseOver={() => setOpacityImage(100)}
       onMouseOut={() => setOpacityImage(70)}
-      className={`grid gap-4 py-7 px-3 shadow-md rounded-lg ${
+      className={` flex flex-col lg:grid gap-4 py-7 px-3 shadow-md rounded-lg ${
         colorShadow === "#E6D6C8"
           ? "shadow-shadowCard px-0 pt-0"
           : "shadow-shadowRed px-0 pt-0"
@@ -42,24 +42,26 @@ export const CardMenu = ({
           colorShadow === "#E6D6C8" ? "text-zincCard px-3" : "text-white px-3"
         } ${
           isVertical
-            ? "flex flex-col text-white text-left justify-between gap-2 min-h-[160px]"
+            ? "flex h-full flex-col text-white text-left justify-between gap-2 min-h-[160px]"
             : "text-zincCard flex flex-col text-left justify-between gap-2 min-h-[160px]"
         }`}
       >
-        <p
-          className={`${
-            isVertical ? "text-xl font-bold" : "font-bold text-sm"
-          }`}
-        >
-          {title}
-        </p>
-        <p
-          className={`font-medium opacity-80 ${
-            isVertical ? "text-sm" : "text-xs"
-          }`}
-        >
-          {content}
-        </p>
+        <div className="flex flex-col gap-2">
+          <p
+            className={`${
+              isVertical ? "text-md lg:text-xl font-bold" : "font-bold text-sm"
+            }`}
+          >
+            {title}
+          </p>
+          <p
+            className={`font-medium opacity-80 ${
+              isVertical ? "text-sm" : "text-xs"
+            }`}
+          >
+            {content}
+          </p>
+        </div>
         <p
           className={`${
             isVertical ? "text-xl font-bold" : "font-bold text-sm"
