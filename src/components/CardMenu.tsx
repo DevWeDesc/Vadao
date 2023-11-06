@@ -34,14 +34,14 @@ export const CardMenu = ({
         <Image alt="" className="w-full rounded-t-lg" src={image} />
       </div>
       <div
-        className={`px-6 flex h-full flex-col text-left justify-between gap-2 min-h-[160px] ${
+        className={`px-6 flex h-full flex-col text-left justify-between gap-2  ${
           colorShadow === "#E6D6C8" ? "text-zincCard" : "text-white"
         } ${isVertical ? "text-white" : "text-zincCard"}`}
       >
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 min-h-[160px]">
           <p
             className={`font-bold ${
-              isVertical ? "text-base lg:text-xl" : "text-sm"
+              isVertical ? "text-base lg:text-lg" : "text-sm"
             }`}
           >
             {title}
@@ -56,7 +56,7 @@ export const CardMenu = ({
         </div>
         <p
           className={` font-bold ${
-            isVertical ? "text-lg lg:text-xl" : "text-sm"
+            isVertical ? "text-base lg:text-lg" : "text-sm"
           }`}
         >
           {price}
