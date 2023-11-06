@@ -13,6 +13,19 @@ import ImageSpaghetti from "../public/ImageSpaghetti.png";
 import ImageBiffFried from "../public/ImageBiff.png";
 import ImageMerluza from "../public/ImageMerluza.png";
 import ImageChicken from "../public/ImageChicken.png";
+import ImageParmegianaCarne from "../public/ImageParmegianaCarne.png";
+import SaladaFrango from "../public/SaladaFrango.png";
+import ImageBife from "../public/ImageBife.png";
+import ImageOmelete from "../public/ImageOmelete.png";
+import ImageCalabresaAcebolada from "../public/ImageCalabresaAcebolada.png";
+import ImageArrumadinhoCalaresa from "../public/ImageArrumadinhoCalaresa.png";
+import ImageAbacaxi from "../public/ImageAbacaxi.png";
+import ImageH2OH from "../public/ImageH2OH.png";
+import ImageRefri from "../public/ImageRefri.png";
+import ImageSuco from "../public/ImageSuco.png";
+import ImageSucoDetox from "../public/ImageSucoDetox.png";
+import ImageAgua from "../public/ImageAgua.png";
+import ImageH2O15 from "../public/ImageH2O1,5.png";
 
 export const DataNav = [
   { value: "Inicio", href: "#Init" },
@@ -125,23 +138,101 @@ export const MenuData: ICardMenu[] = [
     price: "R$ 24,90",
   },
   {
-    image: ImageMerluza,
-    title: "Frutos do Mar à Marinheira",
-    content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
+    image: ImageOmelete,
+    title: "Omelete de Queijo",
+    content: "Arroz feijao bandeja de 800 ml e 1100 ml",
+    price: "R$ 24,90",
   },
-
   {
-    image: ImageMerluza,
-    title: "Frutos do Mar à Marinheira",
+    image: ImageCalabresaAcebolada,
+    title: "Clabresa Acebolada",
+    content: "Arroz e feijao e acompanhamento",
+    price: "R$ 25,90",
+  },
+  {
+    image: ImageBife,
+    title: "Bife a Milanesa",
+    content: "Arroz e feijao e acompanhamentos.",
+    price: "R$ 28,90",
+  },
+  {
+    image: SaladaFrango,
+    title: "Slada com Frango Grelhado + Suco Natural de Laranja",
     content:
-      "Delicie-se com o frescor do mar em nosso prato de frutos do mar à marinheira. Uma seleção exuberante de camarões suculentos, lulas tenras e mexilhões.",
-    price: "R$ 65,90",
+      "Salada de couve flor cenoura e vagem Com frango grelhado Sem arroz e feijao bandeja de 800 ml",
+    price: "R$ 29,90",
+  },
+  {
+    image: ImageParmegianaCarne,
+    title: "Parmegiana de Carne + Bebida",
+    content:
+      "Arroz feijao, parmegiana e acompanhamento Bandeja de 800 ml ( aprox 570 a 700g)",
+    price: "R$ 34,90",
+  },
+  {
+    image: ImageArrumadinhoCalaresa,
+    title: "Arrumadinho Calabresa Acebolada",
+    content:
+      "1 porção de arroz, 1 porção de feijão, 1 porção de batata frita, 1 porção de salada",
+    price: "R$ 75,00",
+  },
+  {
+    image: ImageAbacaxi,
+    title: "Abacaxi, Couve, Gengibre e Hortelã",
+    content: "Suco detox 500ml",
+    price: "R$ 9,90",
+  },
+  {
+    image: ImageH2OH,
+    title: "H2O 500ML",
+    content: "Limão, limoneto",
+    price: "R$ 6,50",
+  },
+  {
+    image: ImageRefri,
+    title: "Refrigerante em Lata",
+    content: "Soda, coca cola, Guaraná Antarctica , Fanta uva e água Tônica",
+    price: "R$ 6,50",
+  },
+  {
+    image: ImageSuco,
+    title: "Suco",
+    content: "",
+    price: "R$ 6,50",
+  },
+  {
+    image: ImageSucoDetox,
+    title: "Suco Detox",
+    content: "Maçã, cenoura , beterraba e gengibre 500ml",
+    price: "R$ 9,90",
+  },
+  {
+    image: ImageAgua,
+    title: "Água Mineral Sem Gás 500ML",
+    content: "",
+    price: "R$ 3,00",
+  },
+  {
+    image: ImageH2O15,
+    title: "H20 1,5 LITROS",
+    content: "",
+    price: "R$ 10,00",
   },
 ];
 
 export const FeedbackData: IFeedbackData[] = [
+  {
+    content:
+      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
+    image: PrimaryFeedback,
+    name: "Cintialelis rubio",
+  },
+  {
+    content:
+      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
+    image: PrimaryFeedback,
+    name: "Cintialelis rubio",
+  },
   {
     content:
       " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",

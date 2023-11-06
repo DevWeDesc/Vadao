@@ -29,9 +29,13 @@ export const CardMenu = ({
       }`}
     >
       <div
-        className={`flex items-center justify-center bg-black/5 opacity-${opacityImage} transition-all bg-fixed rounded-t-lg`}
+        className={`flex items-center w-full justify-center max-h-[104.58px] lg:max-h-[185px] bg-black/5 opacity-${opacityImage} transition-all bg-fixed rounded-t-lg`}
       >
-        <Image alt="" className="w-full rounded-t-lg" src={image} />
+        <Image
+          alt=""
+          className="w-full object-contain max-h-[104.58px] lg:max-h-[195px] rounded-t-lg"
+          src={image}
+        />
       </div>
       <div
         className={`px-6 flex h-full flex-col text-left justify-between gap-2  ${
