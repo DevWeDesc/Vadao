@@ -29,15 +29,17 @@ export const CardMenu = ({
       }`}
     >
       <div
-        className={`flex items-center w-full justify-center  lg:max-h-[185px] bg-black/5 opacity-${opacityImage} transition-all bg-fixed rounded-t-lg ${
-          colorShadow === "#E6D6C8" && "max-h-[104.58px]"
+        className={`flex items-center w-full justify-center lg:max-h-[185px] bg-black/5 opacity-${opacityImage} transition-all bg-fixed rounded-t-lg ${
+          colorShadow === "#E6D6C8" && "max-h-[11.25rem] sm:max-h-[13.8rem]"
         }`}
+        // max-h-[6.5rem]
       >
         <Image
           alt=""
           className={`w-full object-contain lg:max-h-[195px] rounded-t-lg ${
-            colorShadow === "#E6D6C8" && "max-h-[104.58px]"
+            colorShadow === "#E6D6C8" && "max-h-[11.25rem] sm:max-h-[13.8rem]"
           }`}
+          // max-h-[6.5rem]
           src={image}
         />
       </div>
