@@ -18,7 +18,7 @@ export const CardMenu = ({
     <div
       onMouseOver={() => setOpacityImage(100)}
       onMouseOut={() => setOpacityImage(70)}
-      className={` flex flex-col lg:grid gap-4 py-7 px-3 shadow-md rounded-lg ${
+      className={` flex flex-col lg:grid gap-4 py-7 shadow-md rounded-lg ${
         colorShadow === "#E6D6C8"
           ? "shadow-shadowCard px-0 pt-0"
           : "shadow-shadowRed px-0 pt-0"
@@ -29,27 +29,19 @@ export const CardMenu = ({
       }`}
     >
       <div
-        className={`flex items-center justify-center ${
-          colorShadow === "#E6D6C8"
-            ? `bg-black/5  opacity-${opacityImage} transition-all bg-fixed`
-            : `bg-black/5 opacity-${opacityImage} transition-all bg-fixed`
-        } ${isVertical && "px-0"}`}
+        className={`flex items-center justify-center bg-black/5 opacity-${opacityImage} transition-all bg-fixed rounded-t-lg`}
       >
-        <Image alt="" className="w-full rounded-lg" src={image} />
+        <Image alt="" className="w-full rounded-t-lg" src={image} />
       </div>
       <div
-        className={`${
-          colorShadow === "#E6D6C8" ? "text-zincCard px-3" : "text-white px-3"
-        } ${
-          isVertical
-            ? "flex h-full flex-col text-white text-left justify-between gap-2 min-h-[160px]"
-            : "text-zincCard flex flex-col text-left justify-between gap-2 min-h-[160px]"
-        }`}
+        className={`px-6 flex h-full flex-col text-left justify-between gap-2 min-h-[160px] ${
+          colorShadow === "#E6D6C8" ? "text-zincCard" : "text-white"
+        } ${isVertical ? "text-white" : "text-zincCard"}`}
       >
         <div className="flex flex-col gap-2">
           <p
-            className={`${
-              isVertical ? "text-md lg:text-xl font-bold" : "font-bold text-sm"
+            className={`font-bold ${
+              isVertical ? "text-base lg:text-xl" : "text-sm"
             }`}
           >
             {title}
@@ -63,8 +55,8 @@ export const CardMenu = ({
           </p>
         </div>
         <p
-          className={`${
-            isVertical ? "text-xl font-bold" : "font-bold text-sm"
+          className={` font-bold ${
+            isVertical ? "text-lg lg:text-xl" : "text-sm"
           }`}
         >
           {price}
