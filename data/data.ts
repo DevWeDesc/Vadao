@@ -82,6 +82,7 @@ export const MenuData: ICardMenu[] = [
     content:
       "2 unidades de contra filé, 1 porção arroz, 1 porção feijão, 1 porção p batata frita, 1 porção salada",
     price: "R$ 85,00",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=b17b1b09-d873-4246-9e85-759b5c1228a4",
   },
 
   {
@@ -89,6 +90,7 @@ export const MenuData: ICardMenu[] = [
     title: "Contra File em Tiras Executivo",
     content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
     price: "R$ 30,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
   },
   {
     image: quartyHighlights,
@@ -108,6 +110,7 @@ export const MenuData: ICardMenu[] = [
     title: "Contra File em Tiras Com Batata Frita",
     content: "Arroz e feijão contra file e batata frita",
     price: "R$ 34,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=728859a4-deba-4cd8-98ac-66efe725988c",
   },
   {
     image: ImageBiff,
@@ -146,12 +149,14 @@ export const MenuData: ICardMenu[] = [
     title: "File de Frango Grelhado",
     content: "Arroz feijao e file de frango.",
     price: "R$ 24,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=663bf63a-37e8-4cbb-8ecf-e14cbadfe993",
   },
   {
     image: ImageOmelete,
     title: "Omelete de Queijo",
     content: "Arroz feijao bandeja de 800 ml e 1100 ml",
     price: "R$ 24,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=5d101198-96e4-46ad-bc9f-655f62a7cbed",
   },
   {
     image: ImageCalabresaAcebolada,
@@ -185,48 +190,56 @@ export const MenuData: ICardMenu[] = [
     content:
       "1 porção de arroz, 1 porção de feijão, 1 porção de batata frita, 1 porção de salada",
     price: "R$ 75,00",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=3c101ec8-2519-4d07-91dd-81c03d2bb873",
   },
   {
     image: ImageAbacaxi,
     title: "Abacaxi, Couve, Gengibre e Hortelã",
     content: "Suco detox 500ml",
     price: "R$ 9,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=5e1291f8-cc2b-44f8-8eeb-8dbff194356d",
   },
   {
     image: ImageH2OH,
     title: "H2O 500ML",
     content: "Limão, limoneto",
     price: "R$ 6,50",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=ebc2491b-2ccb-4d01-8b18-a610ac992b9f",
   },
   {
     image: ImageRefri,
     title: "Refrigerante em Lata",
     content: "Soda, coca cola, Guaraná Antarctica , Fanta uva e água Tônica",
     price: "R$ 6,50",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=4a3ba214-2512-44eb-9ad6-65f26132e1cd",
   },
   {
     image: ImageSuco,
     title: "Suco",
     content: "",
     price: "R$ 6,50",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=03ddc9a3-6cf9-45fd-b808-d3b648adad4b",
   },
   {
     image: ImageSucoDetox,
     title: "Suco Detox",
     content: "Maçã, cenoura , beterraba e gengibre 500ml",
     price: "R$ 9,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=0db79792-8ddb-4734-8a20-a0883dede87b",
   },
   {
     image: ImageAgua,
     title: "Água Mineral Sem Gás 500ML",
     content: "",
     price: "R$ 3,00",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=0ce1293b-6034-4f70-abdd-3b909d2e6aaf",
   },
   {
     image: ImageH2O15,
     title: "H20 1,5 LITROS",
     content: "",
     price: "R$ 10,00",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=cdb26bb1-55ba-4406-9564-e6eb41d2e699",
   },
 ];
 

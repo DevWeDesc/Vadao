@@ -4,7 +4,7 @@ import "swiper/css";
 import "./styles.css";
 import { Navigation } from "swiper/modules";
 import { CardMenu } from "../CardMenu";
-import { MenuData, highlightsData } from "../../../data/data";
+import { highlightsData } from "../../../data/data";
 import { useState, useEffect } from "react";
 
 export default function SwiperFeatured() {
@@ -32,9 +32,10 @@ export default function SwiperFeatured() {
         spaceBetween={slidesPerView > 1 ? 40 : 0}
       >
         {highlightsData.map((data, index) => (
-          <SwiperSlide key={index} className="bg-redDefault">
+          <SwiperSlide className="bg-redDefault cursor-pointer" key={index}>
             <div className={`${slidesPerView === 1 ? "mx-14" : "mx-0"} my-7`}>
               <CardMenu
+                href={data.href}
                 isVertical={true}
                 content={data.content}
                 image={data.image}
