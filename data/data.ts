@@ -27,6 +27,9 @@ import ImageH2O15 from "../public/ImageH2O1,5.png";
 import ImageRestaurant from "../public/ImageVadãoRestaurante.jpg";
 import ImageRestaurant2 from "../public/ImgPratoVadão.png";
 import ImageRestaurant3 from "../public/ImageVadão.png";
+import ImageComent2 from "../public/ImageCintia.png";
+import ImageComent3 from "../public/ImageFeedbackDani.png";
+import ImageComent4 from "../public/ImageFeedbackJaque.png";
 
 export const DataRestaurant: IDataRestaurant[] = [
   { photo: ImageRestaurant },
@@ -231,31 +234,19 @@ export const FeedbackData: IFeedbackData[] = [
   {
     content:
       " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
-    image: PrimaryFeedback,
+    image: ImageComent2,
     name: "Cintialelis rubio",
   },
   {
     content:
-      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
-    image: PrimaryFeedback,
-    name: "Cintialelis rubio",
+      " Local de refeição super agradável, conta com um buffet de opções variadas e preço fixo facilitando que todos experimentem tudo o que desejam! Fui em Fantasia e tive uma ótima experiência!",
+    image: ImageComent3,
+    name: "Dani Almeida",
   },
   {
     content:
-      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
-    image: PrimaryFeedback,
-    name: "Cintialelis rubio",
-  },
-  {
-    content:
-      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
-    image: PrimaryFeedback,
-    name: "Cintialelis rubio",
-  },
-  {
-    content:
-      " Self-service com bastante opção, massas, comida japonesa, etc...Poderia melhorar a estrutura do local e banheiros.Poderia ter mais opções de sobremesas.O caldo também é bom.Resumindo é um Ótimo lugar pra almoçar com a família e amigos.",
-    image: PrimaryFeedback,
-    name: "Cintialelis rubio",
+      " Rodízio de Camarão é excelente, várias opções de pratos feito com camarão, tbm tem opções com peixes, e alguns itens de comida japonesa. Comemos mto, fomos mto bem atendidos e com certeza voltaremos mais vezes.",
+    image: ImageComent4,
+    name: "Jaque Garcia",
   },
 ];
