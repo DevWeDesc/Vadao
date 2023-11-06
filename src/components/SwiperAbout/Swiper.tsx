@@ -2,7 +2,9 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import ImageSwiper from "../../../public/ImageSwiper.png";
+import ImageSwiper from "../../../public/ImageVadãoRestaurante.jpg";
+import ImageSwiper2 from "../../../public/ImgPratoVadão.png";
+import ImageSwiper3 from "../../../public/ImageVadão.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -26,10 +28,10 @@ export default function SwiperAbout() {
           <Image alt="" src={ImageSwiper} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image alt="" src={ImageSwiper} />
+          <Image alt="" src={ImageSwiper2} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image alt="" src={ImageSwiper} />
+          <Image alt="" src={ImageSwiper3} />
         </SwiperSlide>
       </Swiper>
     </>

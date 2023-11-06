@@ -17,6 +17,17 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 0.6vw;
+  background-color: #e6d6c8;
+}
+
+/* Cor da alça da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #8a191c;
+  border-radius: 6px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
