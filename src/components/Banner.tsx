@@ -1,14 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import ImageBanner from "../../public/ImageBannerMobile.png";
+import ImageBanner2 from "../../public/ImgBannerAtt.png";
 
 export const Banner = () => {
   return (
     <div className="bg-redDefault flex flex-col gap-12 py-24 px-5 md:items-center lg:w-full lg:flex-row-reverse">
       <Image
         alt=""
-        className="lg:absolute lg:right-[18%] lg:w-[50vh] lg:h-[50vh]"
-        src={ImageBanner}
+        className="lg:absolute lg:right-[10%] lg:w-[80vh] lg:h-[60vh]"
+        src={ImageBanner2}
       />
       <div>
         <h2 className="text-[64px] text-white leading-tight opacity-40 font-extraBlack md:text-8xl lg:text-9xl 2xl:text-[12rem] 2xl:pl-16">
