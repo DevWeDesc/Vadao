@@ -32,6 +32,8 @@ import ImageRestaurant3 from "../public/ImageVadão.png";
 import ImageComent2 from "../public/ImageCintia.png";
 import ImageComent3 from "../public/ImageFeedbackDani.png";
 import ImageComent4 from "../public/ImageFeedbackJaque.png";
+import BiffParmegiana from "../public/BiffParmegiana.png";
+import ImageArrumadinhoBaiao from "../public/ImageArrumadinhoBaiao.png";
 
 export const DataRestaurant: IDataRestaurant[] = [
   { photo: ImageRestaurant },
@@ -113,6 +115,21 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=494d0fee-58dc-4c3a-bb3c-7e478b287d79",
   },
   {
+    image: BiffParmegiana,
+    title: "Bife à Parmegiana",
+    content: "Bandeja de 800 ml",
+    price: "R$ 29,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=767fa8fc-8eaa-4162-ac8a-38a7f2524be8",
+  },
+  {
+    image: ImageArrumadinhoBaiao,
+    title: "Arrumadinho Baião de Dois",
+    content:
+      "1 porção de baião de dois, 1 porção de salada, 1 porção de batata frita, 2 unidades de mistura",
+    price: "R$ 79,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=82f9e869-8a83-48db-aaf6-432c08c13d1b",
+  },
+  {
     image: quartyHighlights,
     title: "Almondegas ao Molho",
     content:
@@ -162,14 +179,14 @@ export const MenuData: ICardMenu[] = [
     title: "Spaghetti e Parmegiana de Carne + Bebida",
     content: "Bandeja de 800 ml ( aproximadamente 500 a 650g)",
     price: "R$ 32,90",
-    href: "",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=52dbb68d-141b-4869-8541-f7088053c6ad",
   },
   {
     image: ImageBiffFried,
     title: "Bife Frito",
     content: "Bandeja de 800 ml.",
     price: "R$ 27,90",
-    href: "",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=3c6f0e58-6774-4667-993b-1a2d58fffa0b",
   },
   {
     image: ImageMerluza,
@@ -205,7 +222,7 @@ export const MenuData: ICardMenu[] = [
     title: "Bife a Milanesa",
     content: "Arroz e feijao e acompanhamentos.",
     price: "R$ 28,90",
-    href: "",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=426dc7fa-44ec-4c97-b2b1-0a426dc3ce34",
   },
   {
     image: SaladaFrango,
@@ -213,7 +230,7 @@ export const MenuData: ICardMenu[] = [
     content:
       "Salada de couve flor cenoura e vagem Com frango grelhado Sem arroz e feijao bandeja de 800 ml",
     price: "R$ 29,90",
-    href: "",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=67e0338a-d889-457d-81dc-db45c0e7111d",
   },
   {
     image: ImageParmegianaCarne,
