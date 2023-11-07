@@ -12,7 +12,7 @@ export const Banner = () => {
         src={ImageBanner2}
       />
       <div>
-        <h2 className="text-[60px] text-white leading-tight opacity-50 font-extraBlack md:text-8xl lg:text-9xl 2xl:text-[12rem] 2xl:pl-16">
+        <h2 className="text-[60px] text-white leading-tight opacity-60 font-extraBlack md:text-8xl lg:text-9xl 2xl:text-[12rem] 2xl:pl-16">
           Sabor Inigualável
         </h2>
         <div className="md:px-20 lg:px-24 2xl:px-60">
