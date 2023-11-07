@@ -40,8 +40,8 @@ export const DataRestaurant: IDataRestaurant[] = [
 
 export const DataNav = [
   { value: "Inicio", href: "#Init" },
-  { value: "Destaque", href: "#About" },
-  { value: "Sobre Nós", href: "#Feature" },
+  { value: "Sobre Nós", href: "#About" },
+  { value: "Destaques", href: "#Feature" },
   { value: "Cardápio", href: "#Menu" },
   { value: "Feedbacks", href: "#Feedback" },
   { value: "Contato", href: "#Contact" },

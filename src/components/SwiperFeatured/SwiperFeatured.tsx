@@ -34,14 +34,9 @@ export default function SwiperFeatured() {
         {highlightsData.map((data, index) => (
           <SwiperSlide
             className="bg-redDefault cursor-pointer hover:bg-white"
-            href={data.href}
             key={index}
           >
-            <a
-              target="_blank"
-              href={data.href}
-              className={`${slidesPerView === 1 ? "mx-14" : "mx-0"} my-7`}
-            >
+            <div className={`${slidesPerView === 1 ? "mx-14" : "mx-0"} my-7`}>
               <CardMenu
                 href={data.href}
                 isVertical={true}
@@ -50,7 +45,7 @@ export default function SwiperFeatured() {
                 price={data.price}
                 title={data.title}
               />
-            </a>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

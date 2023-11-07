@@ -16,7 +16,8 @@ export const CardMenu = ({
   const [opacityImage, setOpacityImage] = useState(70);
 
   return (
-    <div
+    <a
+      href={href}
       onMouseOver={() => setOpacityImage(100)}
       onMouseOut={() => setOpacityImage(70)}
       className={`flex flex-col lg:grid gap-4 py-7 shadow-md rounded-lg ${
@@ -75,6 +76,6 @@ export const CardMenu = ({
           {price}
         </p>
       </div>
-    </div>
+    </a>
   );
 };

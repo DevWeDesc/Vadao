@@ -52,17 +52,16 @@ export const Menu = () => {
       </div>
       <div className="mt-16 grid grid-cols-2 gap-4 mb-8 lg:grid-cols-4 lg:gap-5 2xl:grid-cols-5">
         {MenuVisible.map((data, index) => (
-          <a href={data.href} target="_blank" key={index}>
-            <CardMenu
-              href=""
-              isVertical={true}
-              colorShadow="#E6D6C8"
-              image={data.image}
-              title={data.title}
-              content={data.content}
-              price={data.price}
-            />
-          </a>
+          <CardMenu
+            key={index}
+            href={data.href}
+            isVertical={true}
+            colorShadow="#E6D6C8"
+            image={data.image}
+            title={data.title}
+            content={data.content}
+            price={data.price}
+          />
         ))}
       </div>
       {quantityData === MenuVisible.length && (
