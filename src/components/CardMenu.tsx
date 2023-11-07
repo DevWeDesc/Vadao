@@ -37,9 +37,9 @@ export const CardMenu = ({
   return (
     <a
       aria-label={`Link para comprar ${title}`}
+      href={href ? href : `#${idString}`}
       id={idString}
       target={href ? "_blank" : "_self"}
-      href={href ? href : `#${idString}`}
       onClick={hrefExists}
       onMouseOver={() => setOpacityImage(100)}
       onMouseOut={() => setOpacityImage(70)}
