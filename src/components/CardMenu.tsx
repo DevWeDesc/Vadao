@@ -3,6 +3,7 @@ import React from "react";
 import { ICardMenu } from "../../types/types";
 import Image from "next/image";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 export const CardMenu = ({
   image,
@@ -15,12 +16,28 @@ export const CardMenu = ({
 }: ICardMenu) => {
   const [opacityImage, setOpacityImage] = useState(70);
 
+  const hrefExists = () => {
+    href
+      ? null
+      : toast.error("O Prato não está Disponível!", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+  };
+
   return (
     <a
-      href={href}
+      href={href ? href : null}
+      onClick={hrefExists}
       onMouseOver={() => setOpacityImage(100)}
       onMouseOut={() => setOpacityImage(70)}
-      className={`flex flex-col lg:grid gap-4 py-7 shadow-md rounded-lg ${
+      className={`flex flex-col lg:grid gap-4 py-7 shadow-md rounded-lg cursor-pointer ${
         colorShadow === "#E6D6C8"
           ? "shadow-shadowCard px-0 pt-0"
           : "shadow-shadowRed px-0 pt-0"
@@ -68,6 +85,11 @@ export const CardMenu = ({
             {content}
           </p>
         </div>
+        {!href && (
+          <p className={` font-normal ${isVertical ? "text-sm" : "text-xs"}`}>
+            Prato Indisponível!!
+          </p>
+        )}
         <p
           className={` font-bold ${
             isVertical ? "text-base lg:text-lg" : "text-sm"

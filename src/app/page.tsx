@@ -5,10 +5,13 @@ import { Feedbacks } from "@/components/Feedbacks";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Menu } from "@/components/Menu";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Home() {
   return (
     <>
+      <ToastContainer />
       <div className="lg:grid lg:grid-cols-3">
         <div className="lg:col-span-2">
           <Header />
