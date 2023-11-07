@@ -84,11 +84,9 @@ export const CardMenu = ({
             {content}
           </p>
         </div>
-        {!href && (
-          <p className={` font-normal ${isVertical ? "text-sm" : "text-xs"}`}>
-            Prato Indisponível!!
-          </p>
-        )}
+        <p className={` font-normal ${isVertical ? "text-sm" : "text-xs"}`}>
+          {!href ? "Prato Indisponível!!" : "Disponível para a Compra!"}
+        </p>
         <p
           className={` font-bold ${
             isVertical ? "text-base lg:text-lg" : "text-sm"

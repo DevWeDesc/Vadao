@@ -17,6 +17,8 @@ import ImageBife from "../public/ImageBife.png";
 import ImageOmelete from "../public/ImageOmelete.png";
 import ImageCalabresaAcebolada from "../public/ImageCalabresaAcebolada.png";
 import ImageArrumadinhoCalaresa from "../public/ImageArrumadinhoCalaresa.png";
+import ImageRoastChicken from "../public/ImageRoastChicken.png";
+import ImageBaiao from "../public/ImageBaiao.png";
 import ImageAbacaxi from "../public/ImageAbacaxi.png";
 import ImageH2OH from "../public/ImageH2OH.png";
 import ImageRefri from "../public/ImageRefri.png";
@@ -30,7 +32,6 @@ import ImageRestaurant3 from "../public/ImageVadão.png";
 import ImageComent2 from "../public/ImageCintia.png";
 import ImageComent3 from "../public/ImageFeedbackDani.png";
 import ImageComent4 from "../public/ImageFeedbackJaque.png";
-import { title } from "process";
 
 export const DataRestaurant: IDataRestaurant[] = [
   { photo: ImageRestaurant },
@@ -71,11 +72,11 @@ export const highlightsData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
   },
   {
-    image: TerceryHighlights,
-    title: "Contra File em Tiras Executivo",
-    content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
-    price: "R$ 30,90",
-    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
+    image: ImageRoastChicken,
+    title: "Frango Assado Executivo",
+    content: "Arroz feijao, frango assado, batata frita ou legumes, e salada.",
+    price: "R$ 29,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=494d0fee-58dc-4c3a-bb3c-7e478b287d79",
   },
   // {
   //   image: quartyHighlights,
@@ -105,6 +106,13 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
   },
   {
+    image: ImageRoastChicken,
+    title: "Frango Assado Executivo",
+    content: "Arroz feijao, frango assado, batata frita ou legumes, e salada.",
+    price: "R$ 29,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=494d0fee-58dc-4c3a-bb3c-7e478b287d79",
+  },
+  {
     image: quartyHighlights,
     title: "Almondegas ao Molho",
     content:
@@ -117,6 +125,14 @@ export const MenuData: ICardMenu[] = [
     title: "Parmegiana de Frango Executivo",
     content: "Arroz feijao guarnição e salada.",
     price: "R$ 30,90",
+    href: "",
+  },
+  {
+    image: ImageBaiao,
+    title: "Baião + Bebida",
+    content:
+      "Arroz, feijão fradinho, carne seca desfiada, calabresa, queijo coalho, pimentão colorido.",
+    price: "R$ 33,90",
     href: "",
   },
   {
@@ -138,7 +154,7 @@ export const MenuData: ICardMenu[] = [
     title: "Calabresa Acebolada Executivo",
     content: "Arroz, feijao, calabresa acebolada, guarnição e salada",
     price: "R$ 29,90",
-    href: "",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=c70126bd-dfc1-428f-8a49-ebd2993259c1",
   },
 
   {
