@@ -33,8 +33,9 @@ export const CardMenu = ({
 
   return (
     <a
-      target="_blank"
-      href={href ? href : null}
+      id={title}
+      target={href ? "_blank" : "_self"}
+      href={href ? href : `#${title}`}
       onClick={hrefExists}
       onMouseOver={() => setOpacityImage(100)}
       onMouseOut={() => setOpacityImage(70)}
