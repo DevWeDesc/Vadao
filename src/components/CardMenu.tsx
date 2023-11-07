@@ -36,6 +36,8 @@ export const CardMenu = ({
 
   return (
     <a
+      aria-label={title}
+      title={title}
       id={idString}
       target={href ? "_blank" : "_self"}
       href={href ? href : `#${idString}`}
