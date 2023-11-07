@@ -13,7 +13,7 @@ export type ICardMenu = {
   title: string;
   content: string;
   price: string;
-  href?: string;
+  href: string;
   isVertical?: boolean;
   colorShadow?: string;
 };

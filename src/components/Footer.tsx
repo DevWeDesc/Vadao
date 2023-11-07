@@ -11,10 +11,16 @@ export const Footer = () => {
       <div className="flex flex-col items-center gap-2">
         <p className="font-black">Redes Sociais</p>
         <div className="flex gap-3 items-center">
-          <a href="https://www.instagram.com/restaurantedovadao?igshid=MzRlODBiNWFlZA%3D%3D">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/restaurantedovadao?igshid=MzRlODBiNWFlZA%3D%3D"
+          >
             <FiInstagram className="w-8 h-8" />
           </a>
-          <a href="https://www.facebook.com/vadaorestaurante/?locale=pt_BR">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/vadaorestaurante/?locale=pt_BR"
+          >
             <FiFacebook className="w-8 h-8" />
           </a>
         </div>
@@ -22,7 +28,10 @@ export const Footer = () => {
       <div className="flex flex-col items-center gap-2">
         <p className="font-black">Faça seu pedido em Casa!</p>
         <div className="flex gap-3 items-center">
-          <a href="https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158">
+          <a
+            target="_blank"
+            href="https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158"
+          >
             <Image alt="" src={IconIfood} />
           </a>
         </div>

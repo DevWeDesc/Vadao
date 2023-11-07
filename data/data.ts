@@ -30,6 +30,7 @@ import ImageRestaurant3 from "../public/ImageVadão.png";
 import ImageComent2 from "../public/ImageCintia.png";
 import ImageComent3 from "../public/ImageFeedbackDani.png";
 import ImageComent4 from "../public/ImageFeedbackJaque.png";
+import { title } from "process";
 
 export const DataRestaurant: IDataRestaurant[] = [
   { photo: ImageRestaurant },
@@ -53,26 +54,37 @@ export const highlightsData: ICardMenu[] = [
     content:
       "2 unidades de contra filé, 1 porção arroz, 1 porção feijão, 1 porção p batata frita, 1 porção salada",
     price: "R$ 85,00",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=b17b1b09-d873-4246-9e85-759b5c1228a4",
   },
   {
     image: SecondaryHighlights,
     title: "Contra File em Tiras Com Batata Frita",
     content: "Arroz e feijão contra file e batata frita",
     price: "R$ 34,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=5b3287d2-bb11-4a79-a429-fc47c50e007e",
   },
   {
     image: TerceryHighlights,
     title: "Contra File em Tiras Executivo",
     content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
     price: "R$ 30,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
   },
   {
-    image: quartyHighlights,
-    title: "Almondegas ao Molho",
-    content:
-      "6 Unidades de Almondegas deliciosas acompanhadas com queijo e Um molho maravilhoso!",
-    price: "R$ 26,90",
+    image: TerceryHighlights,
+    title: "Contra File em Tiras Executivo",
+    content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
+    price: "R$ 30,90",
+    href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
   },
+  // {
+  //   image: quartyHighlights,
+  //   title: "Almondegas ao Molho",
+  //   content:
+  //     "6 Unidades de Almondegas deliciosas acompanhadas com queijo e Um molho maravilhoso!",
+  //   price: "R$ 26,90",
+  //   href: "",
+  // },
 ];
 
 export const MenuData: ICardMenu[] = [
@@ -98,12 +110,14 @@ export const MenuData: ICardMenu[] = [
     content:
       "6 Unidades de Almondegas deliciosas acompanhadas com queijo e Um molho maravilhoso!",
     price: "R$ 26,90",
+    href: "",
   },
   {
     image: ImageParmegiana,
     title: "Parmegiana de Frango Executivo",
     content: "Arroz feijao guarnição e salada.",
     price: "R$ 30,90",
+    href: "",
   },
   {
     image: SecondaryHighlights,
@@ -117,12 +131,14 @@ export const MenuData: ICardMenu[] = [
     title: "Bife à Cavalo Executivo",
     content: "Arroz, feijão, ovo frito, bife frito e salada de folhas.",
     price: "R$ 29,90",
+    href: "",
   },
   {
     image: ImageCalabresa,
     title: "Calabresa Acebolada Executivo",
     content: "Arroz, feijao, calabresa acebolada, guarnição e salada",
     price: "R$ 29,90",
+    href: "",
   },
 
   {
@@ -130,12 +146,14 @@ export const MenuData: ICardMenu[] = [
     title: "Spaghetti e Parmegiana de Carne + Bebida",
     content: "Bandeja de 800 ml ( aproximadamente 500 a 650g)",
     price: "R$ 32,90",
+    href: "",
   },
   {
     image: ImageBiffFried,
     title: "Bife Frito",
     content: "Bandeja de 800 ml.",
     price: "R$ 27,90",
+    href: "",
   },
   {
     image: ImageMerluza,
@@ -143,6 +161,7 @@ export const MenuData: ICardMenu[] = [
     content:
       "Delicie-se com o File de Merluza em nosso prato. Uma seleção exuberante.",
     price: "R$ 26,90",
+    href: "",
   },
   {
     image: ImageChicken,
@@ -163,12 +182,14 @@ export const MenuData: ICardMenu[] = [
     title: "Clabresa Acebolada",
     content: "Arroz e feijao e acompanhamento",
     price: "R$ 25,90",
+    href: "",
   },
   {
     image: ImageBife,
     title: "Bife a Milanesa",
     content: "Arroz e feijao e acompanhamentos.",
     price: "R$ 28,90",
+    href: "",
   },
   {
     image: SaladaFrango,
@@ -176,6 +197,7 @@ export const MenuData: ICardMenu[] = [
     content:
       "Salada de couve flor cenoura e vagem Com frango grelhado Sem arroz e feijao bandeja de 800 ml",
     price: "R$ 29,90",
+    href: "",
   },
   {
     image: ImageParmegianaCarne,
@@ -183,6 +205,7 @@ export const MenuData: ICardMenu[] = [
     content:
       "Arroz feijao, parmegiana e acompanhamento Bandeja de 800 ml ( aprox 570 a 700g)",
     price: "R$ 34,90",
+    href: "",
   },
   {
     image: ImageArrumadinhoCalaresa,
