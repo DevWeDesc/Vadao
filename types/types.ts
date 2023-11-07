@@ -9,6 +9,7 @@ export type IDataRestaurant = {
   photo: string | StaticImageData | any;
 };
 export type ICardMenu = {
+  id: number;
   image: string | StaticImageData | any;
   title: string;
   content: string;

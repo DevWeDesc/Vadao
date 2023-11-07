@@ -12,12 +12,16 @@ export const Footer = () => {
         <p className="font-black">Redes Sociais</p>
         <div className="flex gap-3 items-center">
           <a
+            title="Link para Perfil do Instagram"
+            aria-label="Link para Perfil do Instagram"
             target="_blank"
             href="https://www.instagram.com/restaurantedovadao?igshid=MzRlODBiNWFlZA%3D%3D"
           >
             <FiInstagram className="w-8 h-8" />
           </a>
           <a
+            title="Link para Perfil do Facebook"
+            aria-label="Link para Perfil do Facebook"
             target="_blank"
             href="https://www.facebook.com/vadaorestaurante/?locale=pt_BR"
           >
@@ -29,6 +33,8 @@ export const Footer = () => {
         <p className="font-black">Faça seu pedido em Casa!</p>
         <div className="flex gap-3 items-center">
           <a
+            title="Link para Loja no Ifood"
+            aria-label="Link para Loja no Ifood"
             target="_blank"
             href="https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158"
           >

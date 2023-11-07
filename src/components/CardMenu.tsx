@@ -6,6 +6,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 export const CardMenu = ({
+  id,
   image,
   title,
   content,
@@ -15,6 +16,8 @@ export const CardMenu = ({
   href,
 }: ICardMenu) => {
   const [opacityImage, setOpacityImage] = useState(70);
+  // const idString = `Prato=${title.replace(/ /g, "-")}-${id.toString()}`;
+  const idString = id.toString();
 
   const hrefExists = () => {
     href
@@ -33,9 +36,9 @@ export const CardMenu = ({
 
   return (
     <a
-      id={title}
+      id={idString}
       target={href ? "_blank" : "_self"}
-      href={href ? href : `#${title}`}
+      href={href ? href : `#${idString}`}
       onClick={hrefExists}
       onMouseOver={() => setOpacityImage(100)}
       onMouseOut={() => setOpacityImage(70)}

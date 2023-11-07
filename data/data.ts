@@ -52,6 +52,7 @@ export const DataNav = [
 
 export const highlightsData: ICardMenu[] = [
   {
+    id: 0,
     image: PrimaryHighlights,
     title: "Arrumadinho Contra Filé Grelhado",
     content:
@@ -60,6 +61,7 @@ export const highlightsData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=b17b1b09-d873-4246-9e85-759b5c1228a4",
   },
   {
+    id: 1,
     image: SecondaryHighlights,
     title: "Contra File em Tiras Com Batata Frita",
     content: "Arroz e feijão contra file e batata frita",
@@ -67,6 +69,7 @@ export const highlightsData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=5b3287d2-bb11-4a79-a429-fc47c50e007e",
   },
   {
+    id: 2,
     image: TerceryHighlights,
     title: "Contra File em Tiras Executivo",
     content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
@@ -74,6 +77,7 @@ export const highlightsData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
   },
   {
+    id: 3,
     image: ImageRoastChicken,
     title: "Frango Assado Executivo",
     content: "Arroz feijao, frango assado, batata frita ou legumes, e salada.",
@@ -92,6 +96,7 @@ export const highlightsData: ICardMenu[] = [
 
 export const MenuData: ICardMenu[] = [
   {
+    id: 0,
     image: PrimaryHighlights,
     title: "Arrumadinho Contra Filé Grelhado",
     content:
@@ -101,6 +106,7 @@ export const MenuData: ICardMenu[] = [
   },
 
   {
+    id: 1,
     image: TerceryHighlights,
     title: "Contra File em Tiras Executivo",
     content: "Arroz, feijao, contra file em tiras, guarnição e salada.",
@@ -108,6 +114,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=163b2af4-a3f4-402f-abe8-aa2c411788d8",
   },
   {
+    id: 2,
     image: ImageRoastChicken,
     title: "Frango Assado Executivo",
     content: "Arroz feijao, frango assado, batata frita ou legumes, e salada.",
@@ -115,6 +122,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=494d0fee-58dc-4c3a-bb3c-7e478b287d79",
   },
   {
+    id: 3,
     image: BiffParmegiana,
     title: "Bife à Parmegiana",
     content: "Bandeja de 800 ml",
@@ -122,6 +130,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=767fa8fc-8eaa-4162-ac8a-38a7f2524be8",
   },
   {
+    id: 4,
     image: ImageArrumadinhoBaiao,
     title: "Arrumadinho Baião de Dois",
     content:
@@ -130,6 +139,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=82f9e869-8a83-48db-aaf6-432c08c13d1b",
   },
   {
+    id: 5,
     image: quartyHighlights,
     title: "Almondegas ao Molho",
     content:
@@ -138,6 +148,7 @@ export const MenuData: ICardMenu[] = [
     href: "",
   },
   {
+    id: 6,
     image: ImageParmegiana,
     title: "Parmegiana de Frango Executivo",
     content: "Arroz feijao guarnição e salada.",
@@ -145,6 +156,7 @@ export const MenuData: ICardMenu[] = [
     href: "",
   },
   {
+    id: 7,
     image: ImageBaiao,
     title: "Baião + Bebida",
     content:
@@ -153,6 +165,7 @@ export const MenuData: ICardMenu[] = [
     href: "",
   },
   {
+    id: 8,
     image: SecondaryHighlights,
     title: "Contra File em Tiras Com Batata Frita",
     content: "Arroz e feijão contra file e batata frita",
@@ -160,6 +173,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=728859a4-deba-4cd8-98ac-66efe725988c",
   },
   {
+    id: 9,
     image: ImageBiff,
     title: "Bife à Cavalo Executivo",
     content: "Arroz, feijão, ovo frito, bife frito e salada de folhas.",
@@ -167,6 +181,7 @@ export const MenuData: ICardMenu[] = [
     href: "",
   },
   {
+    id: 10,
     image: ImageCalabresa,
     title: "Calabresa Acebolada Executivo",
     content: "Arroz, feijao, calabresa acebolada, guarnição e salada",
@@ -175,6 +190,7 @@ export const MenuData: ICardMenu[] = [
   },
 
   {
+    id: 11,
     image: ImageSpaghetti,
     title: "Spaghetti e Parmegiana de Carne + Bebida",
     content: "Bandeja de 800 ml ( aproximadamente 500 a 650g)",
@@ -182,6 +198,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=52dbb68d-141b-4869-8541-f7088053c6ad",
   },
   {
+    id: 12,
     image: ImageBiffFried,
     title: "Bife Frito",
     content: "Bandeja de 800 ml.",
@@ -189,6 +206,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=3c6f0e58-6774-4667-993b-1a2d58fffa0b",
   },
   {
+    id: 13,
     image: ImageMerluza,
     title: "File de Merluza",
     content:
@@ -197,6 +215,7 @@ export const MenuData: ICardMenu[] = [
     href: "",
   },
   {
+    id: 14,
     image: ImageChicken,
     title: "File de Frango Grelhado",
     content: "Arroz feijao e file de frango.",
@@ -204,6 +223,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=663bf63a-37e8-4cbb-8ecf-e14cbadfe993",
   },
   {
+    id: 15,
     image: ImageOmelete,
     title: "Omelete de Queijo",
     content: "Arroz feijao bandeja de 800 ml e 1100 ml",
@@ -211,6 +231,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=5d101198-96e4-46ad-bc9f-655f62a7cbed",
   },
   {
+    id: 16,
     image: ImageCalabresaAcebolada,
     title: "Clabresa Acebolada",
     content: "Arroz e feijao e acompanhamento",
@@ -218,6 +239,7 @@ export const MenuData: ICardMenu[] = [
     href: "",
   },
   {
+    id: 17,
     image: ImageBife,
     title: "Bife a Milanesa",
     content: "Arroz e feijao e acompanhamentos.",
@@ -225,6 +247,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=426dc7fa-44ec-4c97-b2b1-0a426dc3ce34",
   },
   {
+    id: 18,
     image: SaladaFrango,
     title: "Slada com Frango Grelhado + Suco Natural de Laranja",
     content:
@@ -233,6 +256,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=67e0338a-d889-457d-81dc-db45c0e7111d",
   },
   {
+    id: 19,
     image: ImageParmegianaCarne,
     title: "Parmegiana de Carne + Bebida",
     content:
@@ -241,6 +265,7 @@ export const MenuData: ICardMenu[] = [
     href: "",
   },
   {
+    id: 20,
     image: ImageArrumadinhoCalaresa,
     title: "Arrumadinho Calabresa Acebolada",
     content:
@@ -249,6 +274,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=3c101ec8-2519-4d07-91dd-81c03d2bb873",
   },
   {
+    id: 21,
     image: ImageAbacaxi,
     title: "Abacaxi, Couve, Gengibre e Hortelã",
     content: "Suco detox 500ml",
@@ -256,6 +282,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=5e1291f8-cc2b-44f8-8eeb-8dbff194356d",
   },
   {
+    id: 22,
     image: ImageH2OH,
     title: "H2O 500ML",
     content: "Limão, limoneto",
@@ -263,6 +290,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=ebc2491b-2ccb-4d01-8b18-a610ac992b9f",
   },
   {
+    id: 23,
     image: ImageRefri,
     title: "Refrigerante em Lata",
     content: "Soda, coca cola, Guaraná Antarctica , Fanta uva e água Tônica",
@@ -270,6 +298,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=4a3ba214-2512-44eb-9ad6-65f26132e1cd",
   },
   {
+    id: 24,
     image: ImageSuco,
     title: "Suco",
     content: "",
@@ -277,6 +306,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=03ddc9a3-6cf9-45fd-b808-d3b648adad4b",
   },
   {
+    id: 25,
     image: ImageSucoDetox,
     title: "Suco Detox",
     content: "Maçã, cenoura , beterraba e gengibre 500ml",
@@ -284,6 +314,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=0db79792-8ddb-4734-8a20-a0883dede87b",
   },
   {
+    id: 26,
     image: ImageAgua,
     title: "Água Mineral Sem Gás 500ML",
     content: "",
@@ -291,6 +322,7 @@ export const MenuData: ICardMenu[] = [
     href: "https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158?prato=0ce1293b-6034-4f70-abdd-3b909d2e6aaf",
   },
   {
+    id: 27,
     image: ImageH2O15,
     title: "H20 1,5 LITROS",
     content: "",

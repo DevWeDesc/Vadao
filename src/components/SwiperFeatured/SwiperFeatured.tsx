@@ -38,6 +38,7 @@ export default function SwiperFeatured() {
           >
             <div className={`${slidesPerView === 1 ? "mx-14" : "mx-0"} my-7`}>
               <CardMenu
+                id={data.id}
                 href={data.href}
                 isVertical={true}
                 content={data.content}

@@ -51,9 +51,10 @@ export const Menu = () => {
         </p>
       </div>
       <div className="mt-16 grid grid-cols-2 gap-4 mb-8 lg:grid-cols-4 lg:gap-5 2xl:grid-cols-5">
-        {MenuVisible.map((data, index) => (
+        {MenuVisible.map((data) => (
           <CardMenu
-            key={index}
+            id={data.id}
+            key={data.id}
             href={data.href}
             isVertical={true}
             colorShadow="#E6D6C8"
