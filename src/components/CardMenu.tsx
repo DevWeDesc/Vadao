@@ -60,7 +60,7 @@ export const CardMenu = ({
         }`}
       >
         <Image
-          alt=""
+          alt={`Imagem ${title}`}
           className={`w-full object-contain rounded-t-lg ${
             colorShadow === "#E6D6C8" &&
             "max-h-[104.58px] sm:max-h-[13.8rem] lg:max-h-[170px] xl:max-h-[195px] 2xl:max-h-[175px]"

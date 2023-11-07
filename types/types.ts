@@ -7,6 +7,7 @@ export type INav = {
 
 export type IDataRestaurant = {
   photo: string | StaticImageData | any;
+  title: string;
 };
 export type ICardMenu = {
   id: number;

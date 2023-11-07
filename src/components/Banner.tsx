@@ -7,7 +7,7 @@ export const Banner = () => {
   return (
     <div className="bg-redDefault flex flex-col gap-12 py-24 px-5 md:items-center lg:w-full lg:flex-row-reverse">
       <Image
-        alt=""
+        alt="Imagem do Prato do Vadão para Banner"
         className="lg:absolute lg:right-[10%] lg:w-[80vh] lg:h-[60vh]"
         src={ImageBanner2}
       />

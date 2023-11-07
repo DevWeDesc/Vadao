@@ -20,7 +20,11 @@ export const Feedbacks = () => {
         <p className="font-bold text-base 2xl:text-xl">
           Feedback dos Nossos Clientes
         </p>
-        <Image alt="" className="w-8 h-8" src={IconFeedback} />
+        <Image
+          alt="Icone de Comentário"
+          className="w-8 h-8"
+          src={IconFeedback}
+        />
       </div>
       <SwiperFeedback dataFeedbackProp={FeedbackData} />
     </div>

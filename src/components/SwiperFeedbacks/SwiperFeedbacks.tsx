@@ -41,7 +41,10 @@ export default function SwiperFeedback({ dataFeedbackProp }: ISwiperFeedback) {
               {/* <SwiperFeedback /> */}
               <div className="flex flex-col items-center gap-3 2xl:gap-6">
                 <div className="2xl:h-24">
-                  <Image alt="" src={data.image} />
+                  <Image
+                    alt={`Imagem da Cliente ${data.name}`}
+                    src={data.image}
+                  />
                 </div>
                 <p className="font-bold text-xl">{data.name}</p>
               </div>

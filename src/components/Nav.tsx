@@ -16,6 +16,7 @@ export const Nav = ({ navOpen, handleNavOpen }: INav) => {
     >
       {DataNav.map((data, index) => (
         <a
+          aria-label={`Navegação para ${data.value}`}
           href={data.href}
           onClick={() => {
             setSectionSelected(data.value);

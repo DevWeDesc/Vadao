@@ -36,9 +36,9 @@ import BiffParmegiana from "../public/BiffParmegiana.png";
 import ImageArrumadinhoBaiao from "../public/ImageArrumadinhoBaiao.png";
 
 export const DataRestaurant: IDataRestaurant[] = [
-  { photo: ImageRestaurant },
-  { photo: ImageRestaurant2 },
-  { photo: ImageRestaurant3 },
+  { photo: ImageRestaurant, title: "Imagem do Restaurante do Vadão" },
+  { photo: ImageRestaurant2, title: "Imagem de Rodizio de Suchi" },
+  { photo: ImageRestaurant3, title: "Imagem do Rodizio" },
 ];
 
 export const DataNav = [

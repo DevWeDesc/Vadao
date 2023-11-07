@@ -16,7 +16,7 @@ export default function SwiperAbout() {
       >
         {DataRestaurant.map((data, index) => (
           <SwiperSlide key={index} className="max-h-[290px] lg:max-h-full">
-            <Image alt="" src={data.photo} />
+            <Image alt={data.title} src={data.photo} />
           </SwiperSlide>
         ))}
       </Swiper>

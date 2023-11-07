@@ -17,7 +17,7 @@ export const Header = () => {
 
   return (
     <div className="fixed w-screen z-10 bg-redDefault flex items-center justify-between px-5 py-1 md:px-20 lg:w-full lg:px-28 lg:relative 2xl:px-60">
-      <Image alt="" src={LogoHeader} />
+      <Image alt="Logo da Empresa" src={LogoHeader} />
 
       <div
         className="z-20 flex flex-col gap-[6px] h-6 w-6 lg:hidden"

@@ -7,7 +7,7 @@ import { FiInstagram, FiFacebook, FiPhone, FiMapPin } from "react-icons/fi";
 export const Footer = () => {
   return (
     <div className="bg-redDefault py-20 flex flex-col items-center gap-10 text-white lg:flex-row lg:justify-between lg:px-40">
-      <Image alt="" src={ImageLogo} />
+      <Image alt="Logo da empresa" src={ImageLogo} />
       <div className="flex flex-col items-center gap-2">
         <p className="font-black">Redes Sociais</p>
         <div className="flex gap-3 items-center">
@@ -38,7 +38,7 @@ export const Footer = () => {
             target="_blank"
             href="https://www.ifood.com.br/delivery/maua-sp/restaurante-do-vadao-jardim-pilar/5e1b84aa-3312-4a6f-be0c-1c758dab8158"
           >
-            <Image alt="" src={IconIfood} />
+            <Image alt="Imagem do Ifood" src={IconIfood} />
           </a>
         </div>
       </div>
