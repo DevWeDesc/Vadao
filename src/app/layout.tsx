@@ -22,6 +22,9 @@ const roboto = Roboto_Flex({
 export const metadata: Metadata = {
   title: "Vadão Restaurante",
   description: "Vadão Restaurante",
+  verification: {
+    google: "hIF2FiUO5JW0zMk70felqVUGDRVWeGcSjp_7fnzrmxg",
+  },
 };
 
 export default function RootLayout({
