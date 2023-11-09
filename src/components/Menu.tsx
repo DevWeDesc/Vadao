@@ -6,12 +6,16 @@ import { ICardMenu } from "../../types/types";
 
 export const Menu = () => {
   const [MenuVisible, setMenuVisible] = useState<ICardMenu[]>([]);
-  const [quantityInitialData, setQuantityInitialData] = useState(8);
+  const [quantityInitialData, setQuantityInitialData] = useState(6);
   useEffect(() => {
     if (window) {
-      window?.innerWidth <= 1620
-        ? setQuantityInitialData(8)
-        : setQuantityInitialData(10);
+      if (window?.innerWidth <= 620) {
+        setQuantityInitialData(6);
+      } else if (window?.innerWidth <= 1620) {
+        setQuantityInitialData(8);
+      } else {
+        setQuantityInitialData(10);
+      }
     }
   }, []);
 

@@ -16,7 +16,6 @@ export const CardMenu = ({
   href,
 }: ICardMenu) => {
   const [opacityImage, setOpacityImage] = useState(70);
-  // const idString = `Prato=${title.replace(/ /g, "-")}-${id.toString()}`;
   const idString = id.toString();
 
   const hrefExists = () => {
@@ -69,7 +68,7 @@ export const CardMenu = ({
         />
       </div>
       <div
-        className={`px-6 flex h-full flex-col text-left justify-between gap-2  ${
+        className={`px-6 flex h-full flex-col w-full text-left justify-between gap-2  ${
           colorShadow === "#E6D6C8" ? "text-zincCard" : "text-white"
         } ${isVertical ? "text-white" : "text-zincCard"}`}
       >
@@ -86,10 +85,17 @@ export const CardMenu = ({
               isVertical ? "text-sm" : "text-xs"
             }`}
           >
-            {content}
+            {content.length >= 41
+              ? content.substring(0, 41).concat("...")
+              : content.substring(0, 41)}
           </p>
         </div>
-        <p className={` font-normal ${isVertical ? "text-sm" : "text-xs"}`}>
+        <p
+          className={`font-normal py-2 w-full ${
+            href &&
+            "bg-redDefault text-white text-center rounded-full hover:bg-shadowRed transition-all"
+          } ${isVertical ? "text-sm" : "text-xs"}`}
+        >
           {!href ? "Prato Indisponível!!" : "Peça Agora!"}
         </p>
         <p
