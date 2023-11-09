@@ -92,11 +92,12 @@ export const CardMenu = ({
         </div>
         <p
           className={`py-2 w-full ${
-            colorShadow != "#E6D6C8" &&
-            "bg-white text-redDefault hover:bg-zinc-200"
+            colorShadow != "#E6D6C8" && "bg-white hover:bg-zinc-200"
           } ${
             href
-              ? `font-extrabold bg-redDefault text-white text-center rounded-full hover:bg-shadowRed transition-all`
+              ? `font-extrabold bg-redDefault ${
+                  colorShadow != "#E6D6C8" ? "text-redDefault" : "text-white"
+                } text-center rounded-full hover:bg-shadowRed transition-all`
               : "font-normal"
           } ${isVertical ? "text-sm" : "text-xs"}`}
         >
