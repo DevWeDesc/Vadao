@@ -96,7 +96,7 @@ export const CardMenu = ({
             "bg-redDefault text-white text-center rounded-full hover:bg-shadowRed transition-all"
           } ${isVertical ? "text-sm" : "text-xs"}`}
         >
-          {!href ? "Prato Indisponível!!" : "Peça Agora!"}
+          {!href ? "Prato Indisponível!" : "Comprar"}
         </p>
         <p
           className={` font-bold ${
