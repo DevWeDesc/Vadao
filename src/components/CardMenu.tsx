@@ -91,9 +91,13 @@ export const CardMenu = ({
           </p>
         </div>
         <p
-          className={`font-normal py-2 w-full ${
-            href &&
-            "bg-redDefault text-white text-center rounded-full hover:bg-shadowRed transition-all"
+          className={`py-2 w-full ${
+            colorShadow != "#E6D6C8" &&
+            "bg-white text-redDefault hover:bg-zinc-200"
+          } ${
+            href
+              ? `font-extrabold bg-redDefault text-white text-center rounded-full hover:bg-shadowRed transition-all`
+              : "font-normal"
           } ${isVertical ? "text-sm" : "text-xs"}`}
         >
           {!href ? "Prato Indisponível!" : "Comprar"}
